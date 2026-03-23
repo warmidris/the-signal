@@ -28,7 +28,7 @@ PODCAST_CATEGORY = "Technology"
 PODCAST_SUBCATEGORY = "Cryptocurrency"
 PODCAST_EXPLICIT = "no"
 # Base URL for serving episodes — placeholder until hosting is set up
-BASE_URL = "https://raw.githubusercontent.com/warmidris/the-signal/main"
+BASE_URL = "https://warmidris.github.io/the-signal"
 
 
 def get_episode_info(mp3_path):
