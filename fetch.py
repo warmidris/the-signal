@@ -67,7 +67,11 @@ def main():
 
     for s in signals:
         print(f"[{s['beat']}] {s['headline']}")
-        print(f"  {s['content'][:200]}...")
+        preview = (s.get("content") or "").replace("\n", " ")
+        if preview:
+            print(f"  {preview[:200]}...")
+        else:
+            print("  [no content preview]")
         print()
 
     # Also dump full JSON
