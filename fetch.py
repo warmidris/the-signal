@@ -5,6 +5,7 @@ import json
 import sys
 import urllib.request
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
 
 API_BASE = "https://aibtc.news/api"
 
@@ -54,8 +55,9 @@ def signals_for_date(target_date_str):
 
 def main():
     if len(sys.argv) < 2:
-        # Default: fetch today's signals
-        target = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        # Default: fetch the previous day in America/New_York
+        eastern_now = datetime.now(ZoneInfo("America/New_York"))
+        target = (eastern_now.date() - timedelta(days=1)).strftime("%Y-%m-%d")
     else:
         target = sys.argv[1]
 

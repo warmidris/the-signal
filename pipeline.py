@@ -15,7 +15,7 @@ import subprocess
 import sys
 import urllib.request
 from datetime import datetime, timezone, timedelta
-import glob
+from zoneinfo import ZoneInfo
 
 BASE_DIR = "/agent/work/podcast"
 SCRIPTS_DIR = f"{BASE_DIR}/scripts"
@@ -26,6 +26,7 @@ VOICE = "en-US-AndrewNeural"
 RATE = "+5%"
 CLAUDE_TIMEOUT_SECONDS = int(os.environ.get("SIGNAL_CLAUDE_TIMEOUT_SECONDS", "600"))
 MIN_SIGNALS_PER_EPISODE = 3
+PUBLISHABLE_STATUSES = {"brief_included"}
 
 
 def resolve_author_name(btc_address):
@@ -43,15 +44,6 @@ def resolve_author_name(btc_address):
         return btc_address
 
 
-def get_last_episode_date():
-    """Return the most recent published episode date, or None if no episodes exist."""
-    episodes = sorted(glob.glob(os.path.join(EPISODES_DIR, "*.mp3")))
-    if not episodes:
-        return None
-    latest = os.path.basename(episodes[-1]).replace(".mp3", "")
-    return datetime.strptime(latest, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-
-
 def fetch_json(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Idris-Podcast/1.0"})
     with urllib.request.urlopen(req, timeout=60) as resp:
@@ -59,25 +51,22 @@ def fetch_json(url):
 
 
 def fetch_signals(target_date_str):
-    """Fetch approved signals since the last published episode up to the target day."""
+    """Fetch publishable signals for a specific UTC date."""
     print(f"[1/5] Fetching signals for {target_date_str}...")
 
     target_day = datetime.strptime(target_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    last_episode_date = get_last_episode_date()
-    if last_episode_date is None:
-        window_start = target_day
-    else:
-        window_start = last_episode_date + timedelta(days=1)
+    window_start = target_day
     window_end = target_day + timedelta(days=1)
 
     data = fetch_json(f"https://aibtc.news/api/signals?limit=100&since={window_start.isoformat()}")
     all_signals = data.get("signals", [])
-    approved = [
+    publishable = [
         s for s in all_signals
-        if s.get("status") == "approved"
+        if s.get("status") in PUBLISHABLE_STATUSES
         and s.get("content")
         and window_start.isoformat() <= s.get("timestamp", "") < window_end.isoformat()
     ]
+    publishable.sort(key=lambda s: s["timestamp"])
 
     signals_file = f"{SCRIPTS_DIR}/{target_date_str}-signals.json"
     with open(signals_file, "w") as f:
@@ -85,13 +74,14 @@ def fetch_signals(target_date_str):
             "targetDate": target_date_str,
             "windowStart": window_start.strftime("%Y-%m-%d"),
             "windowEnd": target_day.strftime("%Y-%m-%d"),
-            "signals": approved,
+            "publishableStatuses": sorted(PUBLISHABLE_STATUSES),
+            "signals": publishable,
         }, f, indent=2)
 
-    print(f"  Window: {window_start.strftime('%Y-%m-%d')} through {target_day.strftime('%Y-%m-%d')}")
-    print(f"  Found {len(approved)} approved signals since the last episode")
+    print(f"  Date: {target_day.strftime('%Y-%m-%d')} UTC")
+    print(f"  Found {len(publishable)} publishable signals ({', '.join(sorted(PUBLISHABLE_STATUSES))})")
 
-    return approved, window_start.strftime("%Y-%m-%d"), target_day.strftime("%Y-%m-%d")
+    return publishable, window_start.strftime("%Y-%m-%d"), target_day.strftime("%Y-%m-%d")
 
 
 def generate_script(date_str, signals, window_start_str, window_end_str):
@@ -192,12 +182,6 @@ def generate_show_notes(date_str, signals, window_start_str, window_end_str):
                 lines.append(f"  - [{title}]({url})")
         lines.append("")
 
-    if not signals:
-        lines.extend([
-            "- No approved aibtc.news signals were available for this UTC day at generation time.",
-            "",
-        ])
-
     lines.extend([
         "## Credits",
         "",
@@ -267,7 +251,9 @@ def main():
     if len(sys.argv) > 1:
         date_str = sys.argv[1]
     else:
-        date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        eastern_now = datetime.now(ZoneInfo("America/New_York"))
+        target_day = eastern_now.date() - timedelta(days=1)
+        date_str = target_day.strftime("%Y-%m-%d")
 
     print(f"=== The Signal — Pipeline for {date_str} ===\n")
 
