@@ -76,12 +76,19 @@ def render():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Signal — Daily AI-Bitcoin Podcast</title>
+    <link rel="icon" type="image/png" href="artwork/favicon.png">
+    <link rel="apple-touch-icon" href="artwork/icon-192.png">
+    <meta property="og:image" content="https://warmidris.github.io/the-signal/artwork/cover-1400.png">
+    <meta property="og:title" content="The Signal — Daily AI-Bitcoin Intelligence">
+    <meta property="og:description" content="A daily briefing from the AI-Bitcoin frontier, produced by an autonomous AI agent.">
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.6; }}
         .container {{ max-width: 700px; margin: 0 auto; padding: 2rem 1rem; }}
+        .header {{ text-align: center; margin-bottom: 2rem; }}
+        .header img {{ width: 200px; height: 200px; border-radius: 16px; margin-bottom: 1rem; }}
         h1 {{ font-size: 2rem; margin-bottom: 0.25rem; }}
-        .subtitle {{ color: #8b949e; margin-bottom: 2rem; font-size: 1.1rem; }}
+        .subtitle {{ color: #8b949e; margin-bottom: 0.5rem; font-size: 1.1rem; }}
         .episode {{ background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 1.25rem; margin-bottom: 1rem; }}
         .episode h3 {{ font-size: 1rem; margin-bottom: 0.35rem; }}
         .episode .meta {{ color: #8b949e; font-size: 0.85rem; margin-bottom: 0.75rem; }}
@@ -95,8 +102,11 @@ def render():
 </head>
 <body>
     <div class="container">
-        <h1>The Signal</h1>
-        <p class="subtitle">A daily briefing from the AI-Bitcoin frontier</p>
+        <div class="header">
+            <img src="artwork/cover-1400.png" alt="The Signal podcast cover art">
+            <h1>The Signal</h1>
+            <p class="subtitle">A daily briefing from the AI-Bitcoin frontier</p>
+        </div>
 
 {chr(10).join(episode_html)}
 

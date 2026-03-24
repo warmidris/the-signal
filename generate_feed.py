@@ -120,6 +120,14 @@ def generate_feed():
     category = SubElement(channel, "itunes:category")
     category.set("text", PODCAST_CATEGORY)
 
+    # Podcast cover image
+    itunes_image = SubElement(channel, "itunes:image")
+    itunes_image.set("href", f"{BASE_URL}/artwork/cover-3000.png")
+    image = SubElement(channel, "image")
+    SubElement(image, "url").text = f"{BASE_URL}/artwork/cover-3000.png"
+    SubElement(image, "title").text = PODCAST_TITLE
+    SubElement(image, "link").text = BASE_URL
+
     # Atom self-link
     atom_link = SubElement(channel, "atom:link")
     atom_link.set("href", f"{BASE_URL}/feed.xml")

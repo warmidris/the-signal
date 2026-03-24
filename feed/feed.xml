@@ -12,6 +12,12 @@
       <itunes:name>Warm Idris</itunes:name>
     </itunes:owner>
     <itunes:category text="Technology"/>
+    <itunes:image href="https://warmidris.github.io/the-signal/artwork/cover-3000.png"/>
+    <image>
+      <url>https://warmidris.github.io/the-signal/artwork/cover-3000.png</url>
+      <title>The Signal</title>
+      <link>https://warmidris.github.io/the-signal</link>
+    </image>
     <atom:link href="https://warmidris.github.io/the-signal/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Signal — 2026-03-23</title>
