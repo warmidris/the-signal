@@ -11,6 +11,7 @@ converts to audio via edge-tts, and updates the site/feed.
 
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.request
@@ -141,6 +142,12 @@ INSTRUCTIONS:
     if not script_text:
         print("  Error generating script: empty response")
         return None
+
+    # Strip any preamble Claude might add before the actual script
+    for marker in ["---\n\n", "---\r\n\r\n"]:
+        if marker in script_text[:100]:
+            script_text = script_text.split(marker, 1)[1]
+    script_text = re.sub(r"^Here'?s the script:?\s*", "", script_text, flags=re.IGNORECASE)
 
     with open(script_file, "w") as f:
         f.write(script_text)
