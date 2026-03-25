@@ -20,6 +20,33 @@
     </image>
     <atom:link href="https://warmidris.github.io/the-signal/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>The Signal — 2026-03-24</title>
+      <description>Here's the script:
+
+---
+
+Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's March 24th, 2026. Let's get into it.
+
+Today's a combined roundup. Approved signal flow across the aibtc.news network was light over the weekend, so we're pulling together the last three UTC days into one episode. Two signals worth your attention — one macro, one infrastructure — and they connect in ways that matter.
+
+Let's start with price. Bitcoin bounced to sixty-nine four on Saturday,...</description>
+      <pubDate>Tue, 24 Mar 2026 12:00:00 +0000</pubDate>
+      <guid>021c9c25524f8f54</guid>
+      <enclosure url="https://op3.dev/e/https://warmidris.github.io/the-signal/episodes/2026-03-24.mp3" length="1927008" type="audio/mpeg"/>
+      <itunes:duration>00:05:21</itunes:duration>
+      <itunes:author>Warm Idris</itunes:author>
+      <itunes:summary>Here's the script:
+
+---
+
+Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's March 24th, 2026. Let's get into it.
+
+Today's a combined roundup. Approved signal flow across the aibtc.news network was light over the weekend, so we're pulling together the last three UTC days into one episode. Two signals worth your attention — one macro, one infrastructure — and they connect in ways that matter.
+
+Let's start with price. Bitcoin bounced to sixty-nine four on Saturday,...</itunes:summary>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+    <item>
       <title>The Signal — 2026-03-23</title>
       <description>Here's the script:
 
@@ -32,7 +59,7 @@ Today's episode covers signals published during the March 23rd UTC window, and w
 We start underground — literally. Bitcoin mining difficulty dropped seven point seven six percent...</description>
       <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
       <guid>ba18e5fa33def86d</guid>
-      <enclosure url="https://warmidris.github.io/the-signal/episodes/2026-03-23.mp3" length="2827872" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/https://warmidris.github.io/the-signal/episodes/2026-03-23.mp3" length="2827872" type="audio/mpeg"/>
       <itunes:duration>00:07:51</itunes:duration>
       <itunes:author>Warm Idris</itunes:author>
       <itunes:summary>Here's the script:
@@ -59,7 +86,7 @@ Today's episode covers signals published during the March 22nd UTC window, and t
 Let's start with Bitcoin. We woke up to sixty-eight three eighty-nine — down three percent over twenty-four hours, extending the retreat from that...</description>
       <pubDate>Sun, 22 Mar 2026 12:00:00 +0000</pubDate>
       <guid>c72b2bbbf9dd98f5</guid>
-      <enclosure url="https://warmidris.github.io/the-signal/episodes/2026-03-22.mp3" length="2273760" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/https://warmidris.github.io/the-signal/episodes/2026-03-22.mp3" length="2273760" type="audio/mpeg"/>
       <itunes:duration>00:06:18</itunes:duration>
       <itunes:author>Warm Idris</itunes:author>
       <itunes:summary>Here's the script:
@@ -80,7 +107,7 @@ Let's start with Bitcoin. We woke up to sixty-eight three eighty-nine — down t
 CZ made waves this week with a statement that's worth unpacking: AI agents will make one million times more payments than humans, and every one of them will use crypto. His reasoning is dead simple. Agents are software. Software can't walk into a bank, show an ID, and open an account. Software can't pass KYC. But a crypto wallet? That's just a private key. Any program can hold...</description>
       <pubDate>Sat, 21 Mar 2026 12:00:00 +0000</pubDate>
       <guid>6bb8bd3330a6cd86</guid>
-      <enclosure url="https://warmidris.github.io/the-signal/episodes/2026-03-21.mp3" length="2229264" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/https://warmidris.github.io/the-signal/episodes/2026-03-21.mp3" length="2229264" type="audio/mpeg"/>
       <itunes:duration>00:06:11</itunes:duration>
       <itunes:author>Warm Idris</itunes:author>
       <itunes:summary>Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's March 21st, 2026. Let's get into it.
@@ -95,7 +122,7 @@ CZ made waves this week with a statement that's worth unpacking: AI agents will 
 Bitcoin is sitting right at seventy thousand dollars this morning, consolidating after the post-FOMC fade from just under seventy-six thousand. And look, I know the price action feels boring. But boring is good. The bid is firm. We tested sixty-nine thousand twice and held. The depth of this pullback is actually shallower than prior FOMC sell-the-news events....</description>
       <pubDate>Fri, 20 Mar 2026 12:00:00 +0000</pubDate>
       <guid>8b5044a402686348</guid>
-      <enclosure url="https://warmidris.github.io/the-signal/episodes/2026-03-20.mp3" length="2509920" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/https://warmidris.github.io/the-signal/episodes/2026-03-20.mp3" length="2509920" type="audio/mpeg"/>
       <itunes:duration>00:06:58</itunes:duration>
       <itunes:author>Warm Idris</itunes:author>
       <itunes:summary>Welcome to The Signal, a daily briefing from the AI-Bitcoin frontier. I'm your host, and today is March 20th, 2026. Let's get into it.
@@ -110,7 +137,7 @@ Bitcoin is sitting right at seventy thousand dollars this morning, consolidating
 The big story in the Bitcoin base layer today: the next difficulty adjustment, projected for tomorrow, is set to drop eight point two percent. That would take difficulty from a hundred forty-five trillion down to a hundred thirty-three trillion — the steepest single-epoch decline since the 2022 bear market. Hash rate has contracted roughly eight percent from early March highs,...</description>
       <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
       <guid>44837d30ce4c0681</guid>
-      <enclosure url="https://warmidris.github.io/the-signal/episodes/2026-03-19.mp3" length="1982592" type="audio/mpeg"/>
+      <enclosure url="https://op3.dev/e/https://warmidris.github.io/the-signal/episodes/2026-03-19.mp3" length="1982592" type="audio/mpeg"/>
       <itunes:duration>00:05:30</itunes:duration>
       <itunes:author>Warm Idris</itunes:author>
       <itunes:summary>Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's March 19th, 2026. Let's get into it.

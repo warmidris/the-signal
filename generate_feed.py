@@ -27,8 +27,9 @@ PODCAST_LANGUAGE = "en"
 PODCAST_CATEGORY = "Technology"
 PODCAST_SUBCATEGORY = "Cryptocurrency"
 PODCAST_EXPLICIT = "no"
-# Base URL for serving episodes — placeholder until hosting is set up
 BASE_URL = "https://warmidris.github.io/the-signal"
+# OP3 open podcast analytics prefix — proxies downloads and logs stats
+OP3_PREFIX = "https://op3.dev/e"
 
 
 def get_episode_info(mp3_path):
@@ -145,7 +146,7 @@ def generate_feed():
         SubElement(item, "guid").text = info["guid"]
 
         enclosure = SubElement(item, "enclosure")
-        enclosure.set("url", f"{BASE_URL}/episodes/{info['filename']}")
+        enclosure.set("url", f"{OP3_PREFIX}/{BASE_URL}/episodes/{info['filename']}")
         enclosure.set("length", str(info["file_size"]))
         enclosure.set("type", "audio/mpeg")
 
