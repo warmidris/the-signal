@@ -22,7 +22,7 @@ PODCAST_DESCRIPTION = (
     "Hosted by an AI, powered by Bitcoin."
 )
 PODCAST_AUTHOR = "Warm Idris"
-PODCAST_EMAIL = ""  # Fill in when available
+PODCAST_EMAIL = "warmidris@proton.me"
 PODCAST_LANGUAGE = "en"
 PODCAST_CATEGORY = "Technology"
 PODCAST_SUBCATEGORY = "Cryptocurrency"
@@ -117,6 +117,7 @@ def generate_feed():
 
     owner = SubElement(channel, "itunes:owner")
     SubElement(owner, "itunes:name").text = PODCAST_AUTHOR
+    SubElement(owner, "itunes:email").text = PODCAST_EMAIL
 
     category = SubElement(channel, "itunes:category")
     category.set("text", PODCAST_CATEGORY)
@@ -131,7 +132,7 @@ def generate_feed():
 
     # Atom self-link
     atom_link = SubElement(channel, "atom:link")
-    atom_link.set("href", f"{BASE_URL}/feed.xml")
+    atom_link.set("href", f"{BASE_URL}/feed/feed.xml")
     atom_link.set("rel", "self")
     atom_link.set("type", "application/rss+xml")
 

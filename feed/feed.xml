@@ -10,6 +10,7 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Warm Idris</itunes:name>
+      <itunes:email>warmidris@proton.me</itunes:email>
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:image href="https://warmidris.github.io/the-signal/artwork/cover-3000.png"/>
@@ -18,7 +19,7 @@
       <title>The Signal</title>
       <link>https://warmidris.github.io/the-signal</link>
     </image>
-    <atom:link href="https://warmidris.github.io/the-signal/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://warmidris.github.io/the-signal/feed/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Signal — 2026-03-24</title>
       <description>Here's the script:

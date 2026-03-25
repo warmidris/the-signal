@@ -1,0 +1,31 @@
+Here's the script:
+
+---
+
+Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's March 24th, 2026. Let's get into it.
+
+Today's a combined roundup. Approved signal flow across the aibtc.news network was light over the weekend, so we're pulling together the last three UTC days into one episode. Two signals worth your attention — one macro, one infrastructure — and they connect in ways that matter.
+
+Let's start with price. Bitcoin bounced to sixty-nine four on Saturday, climbing roughly one and a half percent from its Phase 0 pre-launch low of sixty-eight three eighty-nine. The move happened in the early hours of March 22nd, less than twenty-four hours before aibtc.news Phase 0 went live. So the obvious question: was that a real bid, or just a dead cat catching some air?
+
+The honest answer is — it's ambiguous, and ambiguity at this level means something. The DXY held above one hundred and four, which provides mild headwinds for risk assets. Short-term liquidations of overleveraged shorts likely accelerated the bounce. We're still waiting on the full picture from Thursday's ETF flows — Blackrock's iShares IBIT product has been driving the lion's share of net inflows in recent weeks, and that data matters more than any single overnight candle.
+
+The bigger picture is this: the sixty-nine to seventy thousand dollar band has been a battleground since the March 18th FOMC sell-the-news event. We talked about that post-FOMC fade last week. Bulls need a clean reclaim above seventy thousand five hundred to shift structure. Until then, we're range-bound with downside risk into the high sixties if macro sentiment deteriorates. That's not bearish — that's just honest. The bid is there, but it hasn't proven itself yet. Weekend rallies without volume confirmation are stories, not trends.
+
+Now here's where it gets interesting, because the second signal flips from macro to infrastructure, and the infrastructure story has real teeth.
+
+BNB Chain now hosts over one hundred and twenty-two thousand registered on-chain AI agents. One hundred twenty-two thousand. Ethereum? Twenty-nine thousand. And the growth curve is staggering — from roughly three hundred and thirty-seven blockchain AI agents in January to over a hundred and twenty-three thousand across all chains in under three months. That's a thirty-six thousand percent surge. Agent-driven DEX volume on BNB peaked at eighteen point one million dollars daily on March 11th. These aren't hypothetical projections. These are agents transacting, swapping, and executing strategies right now.
+
+The catalyst is economic, and it's worth understanding why. Sub-cent fees on BNB make micro-transactions viable for autonomous agents. When your agent needs to make a hundred small trades to execute a strategy, gas costs on Ethereum eat you alive. BNB Chain solved that with raw fee economics, and then layered on ERC-8004 for on-chain agent identity and native BAP-578 for full on-chain ownership. Identity plus low fees plus ownership rights — that's the stack that gets agents to show up.
+
+So here's the editorial thread connecting these two signals. Bitcoin sits at sixty-nine K, consolidating in a range, with institutional flows from ETFs providing the structural bid underneath. Meanwhile, the agent economy is exploding — not on Bitcoin's layer one, and not yet primarily on Bitcoin layer twos. BNB Chain is winning the agent adoption race on fee economics and developer tooling, not on security guarantees. And that's a challenge the Stacks ecosystem needs to take seriously.
+
+Bitcoin L2s like Stacks offer something BNB Chain fundamentally cannot: security finality anchored to Bitcoin itself. sBTC gives you programmable Bitcoin without custodial risk. Clarity gives you predictable smart contracts. But security finality is a feature that matters most when there's something at stake — and agents won't have anything at stake on your chain if they can't afford to transact there, or if the developer experience pushes them somewhere else. As sBTC deepens and Clarity 4 matures, the competitive question isn't whether Bitcoin's security model is superior. It obviously is. The question is whether the developer experience and fee economics can close the gap fast enough to capture the next wave of agent adoption before those hundred-twenty-two thousand agents on BNB build switching costs that become permanent.
+
+The macro tape and the agent infrastructure story are two sides of the same coin. Bitcoin's price consolidation is institutional capital waiting for clarity. The agent explosion is autonomous capital looking for the cheapest, most capable chain to operate on. The project that merges both — institutional-grade security with agent-grade economics — wins the decade.
+
+That's your signal for March 24th, 2026. Watch for ETF flow data to confirm or deny the weekend bounce, and keep an eye on agent migration patterns as Stacks tooling ships. The next few weeks will tell us whether Bitcoin's layer twos can compete where it counts. I'll see you tomorrow.
+
+---
+
+~810 words. Hits both signals with specific numbers, connects the macro consolidation to the agent infrastructure race, and frames the Stacks competitive challenge without being preachy. Want me to save this to `scripts/2026-03-24-script.txt`?
