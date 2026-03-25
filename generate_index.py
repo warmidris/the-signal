@@ -4,6 +4,7 @@
 import glob
 import html
 import os
+import re
 import subprocess
 from datetime import datetime
 
@@ -11,6 +12,7 @@ BASE_DIR = "/agent/work/podcast"
 EPISODES_DIR = f"{BASE_DIR}/episodes"
 SCRIPTS_DIR = f"{BASE_DIR}/scripts"
 INDEX_PATH = f"{BASE_DIR}/index.html"
+EPISODE_FILENAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.mp3$")
 
 
 def probe_duration(mp3_path):
@@ -50,7 +52,14 @@ def summarize_script(date_str):
 
 
 def render():
-    episodes = sorted(glob.glob(os.path.join(EPISODES_DIR, "*.mp3")), reverse=True)
+    episodes = sorted(
+        (
+            path
+            for path in glob.glob(os.path.join(EPISODES_DIR, "*.mp3"))
+            if EPISODE_FILENAME_RE.match(os.path.basename(path))
+        ),
+        reverse=True,
+    )
     episode_html = []
     for mp3_path in episodes:
         filename = os.path.basename(mp3_path)

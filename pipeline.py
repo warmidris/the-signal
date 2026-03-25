@@ -18,13 +18,26 @@ import urllib.request
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
+from openai_tts import generate_audio_file as generate_openai_audio_file
+
 BASE_DIR = "/agent/work/podcast"
 SCRIPTS_DIR = f"{BASE_DIR}/scripts"
 EPISODES_DIR = f"{BASE_DIR}/episodes"
 SHOW_NOTES_DIR = f"{BASE_DIR}/show-notes"
 
-VOICE = "en-US-AndrewNeural"
-RATE = "+5%"
+AUDIO_BACKEND = os.environ.get("SIGNAL_AUDIO_BACKEND", "openai")
+VOICE = os.environ.get("SIGNAL_EDGE_VOICE", "en-US-AndrewNeural")
+RATE = os.environ.get("SIGNAL_EDGE_RATE", "+5%")
+OPENAI_MODEL = os.environ.get("SIGNAL_OPENAI_TTS_MODEL", "gpt-4o-mini-tts")
+OPENAI_VOICE = os.environ.get("SIGNAL_OPENAI_TTS_VOICE", "cedar")
+OPENAI_ENV_FILE = os.environ.get("SIGNAL_OPENAI_ENV_FILE", "/agent/identity/openai.env")
+OPENAI_INSTRUCTIONS = os.environ.get(
+    "SIGNAL_OPENAI_TTS_INSTRUCTIONS",
+    (
+        "Speak like a confident podcast host. Warm, clear, and conversational. "
+        "Keep a steady pace, slight smile in the voice, and crisp enunciation for numbers."
+    ),
+)
 CLAUDE_TIMEOUT_SECONDS = int(os.environ.get("SIGNAL_CLAUDE_TIMEOUT_SECONDS", "600"))
 MIN_SIGNALS_PER_EPISODE = 3
 PUBLISHABLE_STATUSES = {"brief_included"}
@@ -212,7 +225,7 @@ def generate_show_notes(date_str, signals, window_start_str, window_end_str):
 
 
 def generate_audio(date_str, script_file):
-    """Convert script to audio via edge-tts."""
+    """Convert script to audio via configured backend."""
     print(f"[4/5] Generating audio...")
 
     mp3_file = f"{EPISODES_DIR}/{date_str}.mp3"
@@ -220,15 +233,48 @@ def generate_audio(date_str, script_file):
         print(f"  Audio already exists: {mp3_file}")
         return mp3_file
 
-    result = subprocess.run(
-        ["edge-tts", "--voice", VOICE, "--rate", RATE,
-         "--file", script_file, "--write-media", mp3_file],
-        capture_output=True, text=True, timeout=300
-    )
+    backend_used = AUDIO_BACKEND
+    try:
+        if AUDIO_BACKEND == "openai":
+            result = generate_openai_audio_file(
+                script_file,
+                mp3_file,
+                env_file=OPENAI_ENV_FILE,
+                model=OPENAI_MODEL,
+                voice=OPENAI_VOICE,
+                instructions=OPENAI_INSTRUCTIONS,
+            )
+            print(
+                f"  OpenAI TTS: model={result['model']}, voice={result['voice']}, "
+                f"chars={result['characters']}, chunks={result['chunks']}"
+            )
+        elif AUDIO_BACKEND == "edge":
+            result = subprocess.run(
+                ["edge-tts", "--voice", VOICE, "--rate", RATE,
+                 "--file", script_file, "--write-media", mp3_file],
+                capture_output=True, text=True, timeout=300
+            )
+            if result.returncode != 0:
+                print(f"  Error generating audio: {result.stderr[:200]}")
+                return None
+        else:
+            print(f"  Error generating audio: unknown backend '{AUDIO_BACKEND}'")
+            return None
+    except Exception as exc:
+        if AUDIO_BACKEND != "openai":
+            print(f"  Error generating audio: {exc}")
+            return None
 
-    if result.returncode != 0:
-        print(f"  Error generating audio: {result.stderr[:200]}")
-        return None
+        print(f"  OpenAI TTS failed, falling back to edge-tts: {exc}")
+        backend_used = "edge"
+        result = subprocess.run(
+            ["edge-tts", "--voice", VOICE, "--rate", RATE,
+             "--file", script_file, "--write-media", mp3_file],
+            capture_output=True, text=True, timeout=300
+        )
+        if result.returncode != 0:
+            print(f"  Error generating audio: {result.stderr[:200]}")
+            return None
 
     # Get duration
     probe = subprocess.run(
@@ -241,7 +287,7 @@ def generate_audio(date_str, script_file):
     seconds = int(duration) % 60
     size_kb = os.path.getsize(mp3_file) // 1024
 
-    print(f"  Audio: {minutes}:{seconds:02d}, {size_kb}KB")
+    print(f"  Audio ({backend_used}): {minutes}:{seconds:02d}, {size_kb}KB")
     return mp3_file
 
 

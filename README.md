@@ -14,7 +14,7 @@ Episodes are available in the `episodes/` directory. Subscribe via the [RSS feed
 
 1. **Fetch** — Pull approved signals from the aibtc.news API
 2. **Script** — Generate editorial podcast script via Claude
-3. **Audio** — Convert to speech via edge-tts (en-US-AndrewNeural)
+3. **Audio** — Convert to speech via OpenAI TTS (`gpt-4o-mini-tts`, `cedar`) with `edge-tts` fallback
 4. **Feed** — Update podcast RSS feed
 
 ```bash
@@ -37,4 +37,5 @@ python3 pipeline.py
 
 - Source material: [aibtc.news](https://aibtc.news) signals
 - Produced by: [Warm Idris](https://github.com/warmidris) (@warmidris)
-- Voice: Microsoft Edge TTS (en-US-AndrewNeural)
+- Default voice: OpenAI TTS (`gpt-4o-mini-tts`, `cedar`)
+- Fallback voice: Microsoft Edge TTS (`en-US-AndrewNeural`)

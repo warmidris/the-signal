@@ -43,6 +43,7 @@ OP3_PREFIX = "https://op3.dev/e"
 PODCAST_GUID = "e9c7b1a4-6f3d-5e2a-b8c1-4d5e6f7a8b9c"
 
 MAX_DESCRIPTION_BYTES = 4000
+EPISODE_FILENAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.mp3$")
 
 
 def build_description_html(show_notes_md):
@@ -176,7 +177,11 @@ def get_episode_info(mp3_path):
 def generate_feed():
     """Generate the podcast RSS XML feed."""
     # Find all episode MP3s
-    episodes = sorted(glob.glob(os.path.join(EPISODES_DIR, "*.mp3")))
+    episodes = sorted(
+        path
+        for path in glob.glob(os.path.join(EPISODES_DIR, "*.mp3"))
+        if EPISODE_FILENAME_RE.match(os.path.basename(path))
+    )
     if not episodes:
         print("No episodes found.")
         return
