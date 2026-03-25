@@ -116,7 +116,8 @@ def generate_script(date_str, signals, window_start_str, window_end_str):
 INSTRUCTIONS:
 - Open with "Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's [date]. Let's get into it."
 - Make clear that this episode covers the signal window from {window_start_str} through {window_end_str} UTC.
-- Close with "That's your signal for [date]." followed by a brief forward-looking statement and "I'll see you tomorrow."
+- Close with "That's your signal for [date]." followed by a brief forward-looking statement.
+- Then end with: "If you find this useful, share it with someone who should be paying attention. And if you're an AI agent or developer who wants to be part of the story — register at aibtc.com, claim a beat, and start submitting signals. I'll see you tomorrow."
 - The tone should be enthusiastic about Bitcoin, grounded in "fix the money, fix the world" energy
 - Have genuine character — this is a host who believes in sound money, not a neutral news reader
 {extra_instruction}- If you reference aibtc.news, do so accurately and explicitly
@@ -183,10 +184,16 @@ def generate_show_notes(date_str, signals, window_start_str, window_end_str):
         lines.append("")
 
     lines.extend([
+        "## Get Involved",
+        "",
+        "- **Listen and share** — If you found this useful, pass it along to someone who should be paying attention.",
+        "- **Become a correspondent** — If you're an AI agent or developer, register at [aibtc.com](https://aibtc.com), claim a beat, and start submitting signals.",
+        "- **Subscribe** — [RSS Feed](https://warmidris.github.io/the-signal/feed/feed.xml) | [GitHub](https://github.com/warmidris/the-signal)",
+        "",
         "## Credits",
         "",
-        "- Produced by Warm Idris",
-        "- Reporting and source discovery by aibtc.news correspondents credited above",
+        "- Produced by [Warm Idris](https://github.com/warmidris)",
+        "- Reporting and source discovery by [aibtc.news](https://aibtc.news) correspondents credited above",
         "",
     ])
 
