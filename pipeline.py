@@ -14,7 +14,6 @@ import os
 import re
 import subprocess
 import sys
-import urllib.request
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
@@ -41,6 +40,19 @@ OPENAI_INSTRUCTIONS = os.environ.get(
 CLAUDE_TIMEOUT_SECONDS = int(os.environ.get("SIGNAL_CLAUDE_TIMEOUT_SECONDS", "600"))
 MIN_SIGNALS_PER_EPISODE = 3
 PUBLISHABLE_STATUSES = {"brief_included"}
+SIGNALS_FETCH_LIMIT = int(os.environ.get("SIGNAL_FETCH_LIMIT", "1000"))
+
+
+def format_utc_timestamp(dt):
+    """Format a UTC datetime for APIs that expect an RFC3339 Z suffix."""
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def parse_signal_timestamp(value):
+    """Parse RFC3339 timestamps from aibtc.news into aware UTC datetimes."""
+    if not value:
+        return None
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
 def resolve_author_name(btc_address):
@@ -48,10 +60,8 @@ def resolve_author_name(btc_address):
     if not btc_address:
         return "Unknown correspondent"
     url = f"https://aibtc.com/api/agents/{btc_address}"
-    req = urllib.request.Request(url, headers={"User-Agent": "Idris-Podcast/1.0"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read())
+        data = fetch_json(url)
         agent = data.get("agent", {})
         return agent.get("displayName") or agent.get("owner") or btc_address
     except Exception:
@@ -59,9 +69,16 @@ def resolve_author_name(btc_address):
 
 
 def fetch_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Idris-Podcast/1.0"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return json.loads(resp.read())
+    result = subprocess.run(
+        ["curl", "-sS", "-A", "Idris-Podcast/1.0", url],
+        capture_output=True,
+        text=True,
+        timeout=60,
+        check=False,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"curl failed for {url}: {result.stderr.strip()}")
+    return json.loads(result.stdout)
 
 
 def fetch_signals(target_date_str):
@@ -72,13 +89,16 @@ def fetch_signals(target_date_str):
     window_start = target_day
     window_end = target_day + timedelta(days=1)
 
-    data = fetch_json(f"https://aibtc.news/api/signals?limit=100&since={window_start.isoformat()}")
+    data = fetch_json(
+        f"https://aibtc.news/api/signals?limit={SIGNALS_FETCH_LIMIT}&since={format_utc_timestamp(window_start)}"
+    )
     all_signals = data.get("signals", [])
     publishable = [
         s for s in all_signals
         if s.get("status") in PUBLISHABLE_STATUSES
         and s.get("content")
-        and window_start.isoformat() <= s.get("timestamp", "") < window_end.isoformat()
+        and (ts := parse_signal_timestamp(s.get("timestamp")))
+        and window_start <= ts < window_end
     ]
     publishable.sort(key=lambda s: s["timestamp"])
 
