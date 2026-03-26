@@ -23,6 +23,7 @@ BASE_DIR = "/agent/work/podcast"
 SCRIPTS_DIR = f"{BASE_DIR}/scripts"
 EPISODES_DIR = f"{BASE_DIR}/episodes"
 SHOW_NOTES_DIR = f"{BASE_DIR}/show-notes"
+FEED_DIR = f"{BASE_DIR}/feed"
 
 AUDIO_BACKEND = os.environ.get("SIGNAL_AUDIO_BACKEND", "openai")
 VOICE = os.environ.get("SIGNAL_EDGE_VOICE", "en-US-AndrewNeural")
@@ -82,12 +83,29 @@ def fetch_json(url):
 
 
 def fetch_signals(target_date_str):
-    """Fetch publishable signals for a specific UTC date."""
+    """Fetch publishable signals from the last published episode through target_date UTC."""
     print(f"[1/5] Fetching signals for {target_date_str}...")
 
     target_day = datetime.strptime(target_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    window_start = target_day
     window_end = target_day + timedelta(days=1)
+
+    latest_episode_date = None
+    if os.path.isdir(EPISODES_DIR):
+        for filename in os.listdir(EPISODES_DIR):
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}\.mp3", filename):
+                continue
+            date_part = filename[:-4]
+            if date_part >= target_date_str:
+                continue
+            latest_episode_date = max(latest_episode_date or date_part, date_part)
+
+    if latest_episode_date:
+        window_start = (
+            datetime.strptime(latest_episode_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            + timedelta(days=1)
+        )
+    else:
+        window_start = target_day
 
     data = fetch_json(
         f"https://aibtc.news/api/signals?limit={SIGNALS_FETCH_LIMIT}&since={format_utc_timestamp(window_start)}"
@@ -112,7 +130,9 @@ def fetch_signals(target_date_str):
             "signals": publishable,
         }, f, indent=2)
 
-    print(f"  Date: {target_day.strftime('%Y-%m-%d')} UTC")
+    print(
+        f"  Window: {window_start.strftime('%Y-%m-%d')} through {target_day.strftime('%Y-%m-%d')} UTC"
+    )
     print(f"  Found {len(publishable)} publishable signals ({', '.join(sorted(PUBLISHABLE_STATUSES))})")
 
     return publishable, window_start.strftime("%Y-%m-%d"), target_day.strftime("%Y-%m-%d")
@@ -331,8 +351,8 @@ def main():
     if len(sys.argv) > 1:
         date_str = sys.argv[1]
     else:
-        eastern_now = datetime.now(ZoneInfo("America/New_York"))
-        target_day = eastern_now.date() - timedelta(days=1)
+        utc_now = datetime.now(timezone.utc)
+        target_day = utc_now.date() - timedelta(days=1)
         date_str = target_day.strftime("%Y-%m-%d")
 
     print(f"=== The Signal — Pipeline for {date_str} ===\n")
