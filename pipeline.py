@@ -40,7 +40,7 @@ OPENAI_INSTRUCTIONS = os.environ.get(
 )
 CLAUDE_TIMEOUT_SECONDS = int(os.environ.get("SIGNAL_CLAUDE_TIMEOUT_SECONDS", "600"))
 MIN_SIGNALS_PER_EPISODE = 3
-PUBLISHABLE_STATUSES = {"brief_included"}
+PUBLISHABLE_STATUSES = {"approved", "brief_included"}
 SIGNALS_FETCH_LIMIT = int(os.environ.get("SIGNAL_FETCH_LIMIT", "1000"))
 
 
