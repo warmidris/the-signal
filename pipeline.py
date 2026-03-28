@@ -347,6 +347,35 @@ def update_site():
     print(f"  {index_result.stdout.strip()}")
 
 
+def publish_to_github(date_str):
+    """Commit new episode files and push to GitHub Pages."""
+    print(f"[6/6] Publishing to GitHub...")
+    try:
+        subprocess.run(
+            ["git", "add", "episodes/", "feed/", "scripts/", "show-notes/", "index.html"],
+            cwd=BASE_DIR, capture_output=True, text=True, check=True,
+        )
+        # Check if there's anything to commit
+        status = subprocess.run(
+            ["git", "diff", "--cached", "--quiet"],
+            cwd=BASE_DIR, capture_output=True,
+        )
+        if status.returncode == 0:
+            print("  Nothing new to commit.")
+            return
+        subprocess.run(
+            ["git", "commit", "-m", f"Publish {date_str} episode"],
+            cwd=BASE_DIR, capture_output=True, text=True, check=True,
+        )
+        result = subprocess.run(
+            ["git", "push"],
+            cwd=BASE_DIR, capture_output=True, text=True, check=True,
+        )
+        print(f"  Pushed to GitHub.")
+    except subprocess.CalledProcessError as exc:
+        print(f"  Git publish failed: {exc.stderr[:200] if exc.stderr else exc}")
+
+
 def main():
     if len(sys.argv) > 1:
         date_str = sys.argv[1]
@@ -384,6 +413,9 @@ def main():
 
     # Step 4: Feed
     update_site()
+
+    # Step 6: Commit and push to GitHub Pages
+    publish_to_github(date_str)
 
     print(f"\nDone! Episode: {mp3_file}")
     return 0
