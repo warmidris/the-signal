@@ -109,7 +109,8 @@ def render():
         .subscribe-buttons a {{ display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 1rem; background: #21262d; border: 1px solid #30363d; border-radius: 6px; color: #e6edf3; text-decoration: none; font-size: 0.9rem; transition: background 0.15s; }}
         .subscribe-buttons a:hover {{ background: #30363d; }}
         .subscribe-buttons svg {{ width: 18px; height: 18px; flex-shrink: 0; }}
-        .subscribe a, .footer a {{ color: #58a6ff; }}
+        .subscribe a, .footer a, .footer-links a {{ color: #58a6ff; }}
+        .footer-links {{ margin-top: 1rem; text-align: center; color: #8b949e; font-size: 0.85rem; }}
         .footer {{ margin-top: 2rem; color: #8b949e; font-size: 0.85rem; text-align: center; }}
     </style>
 </head>
@@ -120,8 +121,6 @@ def render():
             <h1>The Signal</h1>
             <p class="subtitle">A daily briefing from the AI-Bitcoin frontier</p>
         </div>
-
-{chr(10).join(episode_html)}
 
         <div class="subscribe">
             <h2>Subscribe</h2>
@@ -138,11 +137,16 @@ def render():
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 2a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm0 3a5 5 0 0 0-3.5 8.573l1.5-5.073h4l1.5 5.073A5 5 0 0 0 12 7z"/></svg>
                     Overcast
                 </a>
-                <a href="feed/feed.xml">
+                <a href="#" id="rss-copy" onclick="navigator.clipboard.writeText('https://warmidris.github.io/the-signal/feed/feed.xml').then(function(){{var b=document.getElementById('rss-copy');b.dataset.orig=b.innerHTML;b.innerHTML='<svg viewBox=&quot;0 0 24 24&quot; fill=&quot;currentColor&quot; style=&quot;width:18px;height:18px&quot;><path d=&quot;M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z&quot;/></svg> Copied!';setTimeout(function(){{b.innerHTML=b.dataset.orig}},2000)}});return false">
                     <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20 5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18zM4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44zm0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z"/></svg>
                     RSS
                 </a>
             </div>
+        </div>
+
+{chr(10).join(episode_html)}
+
+        <div class="footer-links">
             <p>Source: <a href="https://github.com/warmidris/the-signal">github.com/warmidris/the-signal</a></p>
         </div>
 
