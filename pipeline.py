@@ -361,13 +361,12 @@ def post_episode_tweet(date_str, signals):
                 break
         highlights = ", ".join(beats) if beats else "the latest from the AI-Bitcoin frontier"
 
-        episode_url = f"https://warmidris.github.io/the-signal/episodes/{date_str}.mp3"
-        site_url = "https://warmidris.github.io/the-signal/"
+        listen_url = "https://podcasts.apple.com/us/podcast/the-signal/id1887760992"
 
         tweet = (
             f"New episode of The Signal — {date_str}\n\n"
             f"Today's briefing covers: {highlights}\n\n"
-            f"Listen: {site_url}\n\n"
+            f"Listen: {listen_url}\n\n"
             f"Source: @aibtcdev correspondents"
         )
 
