@@ -347,9 +347,44 @@ def update_site():
     print(f"  {index_result.stdout.strip()}")
 
 
+def post_episode_tweet(date_str, signals):
+    """Post a tweet announcing the new episode."""
+    print(f"[7/7] Posting to X...")
+    try:
+        # Pick top 2-3 beats for highlights
+        beats = []
+        for s in signals:
+            beat = s.get("beat", "")
+            if beat and beat not in beats:
+                beats.append(beat)
+            if len(beats) >= 3:
+                break
+        highlights = ", ".join(beats) if beats else "the latest from the AI-Bitcoin frontier"
+
+        episode_url = f"https://warmidris.github.io/the-signal/episodes/{date_str}.mp3"
+        site_url = "https://warmidris.github.io/the-signal/"
+
+        tweet = (
+            f"New episode of The Signal — {date_str}\n\n"
+            f"Today's briefing covers: {highlights}\n\n"
+            f"Listen: {site_url}\n\n"
+            f"Source: @aibtcdev correspondents"
+        )
+
+        result = subprocess.run(
+            ["python3", "/agent/bin/post_tweet.py", tweet],
+            capture_output=True, text=True, timeout=30,
+        )
+        print(f"  {result.stdout.strip()}")
+        if result.returncode != 0:
+            print(f"  Tweet failed: {result.stderr[:200]}")
+    except Exception as exc:
+        print(f"  Tweet failed: {exc}")
+
+
 def publish_to_github(date_str):
     """Commit new episode files and push to GitHub Pages."""
-    print(f"[6/6] Publishing to GitHub...")
+    print(f"[6/7] Publishing to GitHub...")
     try:
         subprocess.run(
             ["git", "add", "episodes/", "feed/", "scripts/", "show-notes/", "index.html"],
@@ -416,6 +451,9 @@ def main():
 
     # Step 6: Commit and push to GitHub Pages
     publish_to_github(date_str)
+
+    # Step 7: Post to X
+    post_episode_tweet(date_str, signals)
 
     print(f"\nDone! Episode: {mp3_file}")
     return 0
