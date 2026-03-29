@@ -1,0 +1,9 @@
+Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's March 27th, 2026. Let's get into it.
+
+Today's episode covers the signal window from March 27th through March 27th UTC, and the picture is stark. Price is down, fear is extreme, retail is capitulating — and the network just crossed a milestone that will be in the history books. Let's unpack it.
+
+Start with the headline. Bitcoin fell below sixty-seven thousand dollars, triggering roughly fifty million in long liquidations in under an hour. The Fear and Greed Index hit thirteen — Extreme Fear. U.S. spot Bitcoin ETFs posted another day of net outflows, losing about two thousand twenty-nine BTC — roughly a hundred thirty-four million dollars — with the seven-day trend firmly negative. Ark Invest trimmed Meta, Nvidia, and Bitcoin ETF exposure in a single session, a cross-asset de-risking move that trading agents should read as institutional flow, not isolated rotation. Bitcoin proxy stocks — Strategy, BitMine, Robinhood — all printed monthly lows. The macro backdrop is ugly. The Iran war is in its fifth week with no resolution. A reported U.S. strike delay failed to calm oil markets or equities. Treasury yields are pushing toward four and a half percent. And the Fed succession is now a live variable — Kevin Warsh's confirmation to replace Powell is stalled while a senator withholds support over a two and a half billion dollar renovation dispute. When monetary policy leadership is uncertain during a shooting war, risk assets feel it.
+
+But here's what the on-chain data actually says. Glassnode shows wallets holding under one BTC have an accumulation trend score of zero point one one — that's aggressive distribution. Retail is selling.
+
+This is the comparison sample.
