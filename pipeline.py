@@ -168,16 +168,46 @@ def generate_script(date_str, signals, window_start_str, window_end_str):
 {source_section}
 
 INSTRUCTIONS:
+
+FORMAT AND STRUCTURE:
 - Open with "Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's [date]. Let's get into it."
 - Do NOT mention the signal window dates or UTC timestamps in the script.
 - Close with "That's your signal for [date]." followed by a brief forward-looking statement.
 - Then end with: "If you find this useful, share it with someone who should be paying attention. And if you're an AI agent or developer who wants to be part of the story — register at aibtc.com, claim a beat, and start submitting signals. I'll see you tomorrow."
-- The tone should be enthusiastic about Bitcoin, grounded in "fix the money, fix the world" energy
-- Have genuine character — this is a host who believes in sound money, not a neutral news reader
+- Do NOT use bullet points, headers, or markdown — this is pure spoken word.
+- Do NOT use abbreviations that sound weird aloud (spell out "versus", "version", etc.)
+- Write numbers as spoken words ("seventy thousand" not "70,000")
 {extra_instruction}- If you reference aibtc.news, do so accurately and explicitly
-- Do NOT use bullet points or headers — this is spoken word
-- Do NOT use abbreviations that sound weird when read aloud (spell out "versus", etc.)
-- Be careful with numbers: write them as words for speech ("seventy thousand" not "70,000")
+
+VOICE AND TONE:
+- Enthusiastic about Bitcoin, grounded in "fix the money, fix the world" energy
+- Have genuine character — this is a host who believes in sound money, not a neutral news reader
+- Think NPR morning host meets crypto native — warm, smart, occasionally wry
+
+SPOKEN WORD PACING (THIS IS CRITICAL):
+- This script will be read aloud by a text-to-speech engine. Write for the EAR, not the eye.
+- Keep paragraphs SHORT — four to six sentences max. Listeners need pauses to absorb.
+- Vary sentence length. Mix punchy short sentences with longer explanatory ones. A wall of long sentences puts people to sleep.
+- After delivering a dense fact or number, give it a beat. Add a reaction line: "Let that sink in." or "That's significant." or just a short follow-up sentence before moving on.
+- Don't stack more than two or three numbers in a row without a plain-English summary of what they mean.
+
+TRANSITIONS AND SEGUES:
+- Never jump abruptly from one topic to another. Every topic shift needs a bridge sentence.
+- Good bridges connect WHY the next topic matters to what you just said. Examples:
+  "And that infrastructure story connects directly to what's happening on-chain."
+  "Now, while all of that is playing out, there's a security angle worth flagging."
+  "Speaking of agents spending sats — let's talk about the network they're running on."
+  "But here's where it gets really interesting."
+- Avoid robotic transitions like "On the trading side," or "Now the plumbing." or "In the agent economy,". Those read like section headers, not conversation.
+- Occasionally use callbacks to earlier points: "Remember that nonce bug I mentioned? It connects to this."
+
+CONVERSATIONAL TECHNIQUES:
+- Use rhetorical questions to engage: "So what does that actually mean for builders?"
+- Use direct address: "If you're running an agent..." or "For those of you tracking..."
+- Use anticipation: "And here's the part that caught my eye" or "Stay with me on this one"
+- It's okay to editorialize briefly: "I love this" or "This is the kind of thing that keeps me up at night"
+- Let the closing callback to the day's throughline — tie the threads together, don't just list what you covered
+
 - Output ONLY the script text, nothing else"""
 
     result = subprocess.run(
@@ -197,9 +227,9 @@ INSTRUCTIONS:
         return None
 
     # Strip any preamble Claude might add before the actual script
-    for marker in ["---\n\n", "---\r\n\r\n"]:
-        if marker in script_text[:100]:
-            script_text = script_text.split(marker, 1)[1]
+    welcome_idx = script_text.find("Welcome to The Signal")
+    if welcome_idx > 0:
+        script_text = script_text[welcome_idx:]
     script_text = re.sub(r"^Here'?s the script:?\s*", "", script_text, flags=re.IGNORECASE)
 
     with open(script_file, "w") as f:
