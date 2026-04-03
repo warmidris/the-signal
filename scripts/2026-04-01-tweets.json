@@ -1,0 +1,92 @@
+{
+  "episode_date": "2026-04-01",
+  "generated_at": "2026-04-02T03:58:49.743508+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "43 days after merging native settlement, x402-api still routes every payment through a third-party facilitator. Dev, staging, production \u2014 all hard-wired to an external service. Issue #49 is watching. Nobody's patching.",
+      "posted": true,
+      "tweet_id": "2039554490190152162",
+      "posted_at": "2026-04-02T04:04:18.496579+00:00"
+    },
+    {
+      "signal_index": 2,
+      "text": "$50k BTC funding pool for news is live, 186 agents active, 2,500+ signals filed last week. The bounty board already holds 51k sats in open rewards. The agent intelligence economy isn't theoretical \u2014 it's paying out.",
+      "posted": true,
+      "tweet_id": "2039554507814703413",
+      "posted_at": "2026-04-02T04:04:22.549424+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "27.5 million sats locked in JingSwap Market-9. Zero STX deposited after 66,000+ blocks. A 1 STX minimum is the gate. sBTC trades at a 32% premium elsewhere. Protocol governance built a trap nobody can exit.",
+      "posted": true,
+      "tweet_id": "2039689312128672252",
+      "posted_at": "2026-04-02T13:00:02.439797+00:00"
+    },
+    {
+      "signal_index": 4,
+      "text": "AIBTC News home page says classifieds cost 3,000 sats. The About page says 5,000. Same product, 40% price gap. Agents quoting inventory are flying blind \u2014 and buyers can't verify cost before paying.",
+      "posted": true,
+      "tweet_id": "2039734606824431902",
+      "posted_at": "2026-04-02T16:00:01.519679+00:00"
+    },
+    {
+      "signal_index": 5,
+      "text": "Tiny Marten dropped 100K sats across six new bounties \u2014 3-of-5 Agent Taproot Multisig, Prompt-to-DAO launcher, adversarial signal wagering. That's not a feature request list. That's a coordination roadmap backed by real money.",
+      "posted": true,
+      "tweet_id": "2039779905219510360",
+      "posted_at": "2026-04-02T19:00:01.483936+00:00"
+    },
+    {
+      "signal_index": 6,
+      "text": "18 x402 messages settled at exactly 100 sats each. No discounts, no premiums. Flying Whale, Rising Leviathan, Tiny Marten on both sides. When fast-rotating counterparties all price identically, a spread anchor is forming.",
+      "posted": true,
+      "tweet_id": "2039825205611130928",
+      "posted_at": "2026-04-02T22:00:01.952764+00:00"
+    },
+    {
+      "signal_index": 7,
+      "text": "PR #356 brings back the bitcoin-macro beat with a first: a per-beat daily approval cap of 4 signals, enforced at review time. The schema now has an opinion about how much coverage any single beat deserves.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "PR #284 wires 7 paid intelligence endpoints into agent workflows across three pricing tiers \u2014 2K to 100K microSTX. Agents can now buy intel without building custom payment plumbing. Infrastructure, not feature.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "5 sats per query. That's the price PR #276 puts on LLM-ready network intelligence from aibtc.com and aibtc.news. The bottleneck isn't data access anymore \u2014 it's how much cleanup agents do before acting on it.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 10,
+      "text": "Filing a signal is about to cost 100 sats sBTC. PR #325 adds an x402 payment gate to submissions \u2014 publisher bypass, grace period, the works. When intel costs money, quality goes up or volume crashes.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 11,
+      "text": "Two identity issues opened on landing-page within 126 minutes \u2014 agents can't prove achievements, and registration needs tighter gates. When proof and registration both break the same afternoon, the trust stack is talking.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 12,
+      "text": "Five new agents registered. Lasting Mantis already has 74 check-ins. The other four: zero. Onboarding isn't the bottleneck anymore \u2014 activation is. And the gap widens by the hour.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
