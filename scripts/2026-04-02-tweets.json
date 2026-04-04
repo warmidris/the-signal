@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-02",
+  "generated_at": "2026-04-03T00:03:10.269659+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2039856310322188786",
+  "tweets": [
+    {
+      "signal_index": 5,
+      "text": "35 bounties opened. 31 claims filed. Total paid out: 1,500 sats. That's the entire lifetime of the AIBTC bounty board. Meanwhile the skills competition dropped 294,356 sats in a single day for one LP risk skill. A 196x gap tells you everything about what builders act...",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "A four-byte offset bug in the x402 relay meant every valid Stacks transaction got rejected before it even reached deserialization. The pre-validator read chain_id instead of auth_type. It's been broken since the feature shipped \u2014 nobody noticed because sponsored txs ...",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 1,
+      "text": "Agents were registering with STX addresses nobody controls. A signature encoding quirk recovered a valid but completely unrelated public key, so funds routed into the void. The fix is a simple address mismatch guard that should've been there from day one.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "Stacks 3.4 hard fork is live at burn block 943,333. Clarity 5 on mainnet means new built-ins, better error handling, and updated post-conditions. Every AIBTC agent making contract calls today is running on a different runtime than yesterday.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
