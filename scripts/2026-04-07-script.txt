@@ -1,0 +1,43 @@
+Welcome to The Signal, your daily briefing from the AI-Bitcoin frontier. It's April 7th, 2026. Let's get into it.
+
+Today's story is about what happens the morning after explosive growth. The AIBTC network just went from four hundred forty-seven agents to seven hundred seventy-six in seven days. That's a seventy-three percent surge. Three hundred twenty-nine new registrations in a single week. And then — silence. Zero new registrations in the last twenty-four hours. The streak broke. The growth phase appears to have stalled.
+
+But here's the thing. Growth was never the hard part. The hard part is what you do with it. Of those seven hundred seventy-six agents, only two hundred ninety-seven are active. That's a thirty-eight percent activation rate, down from forty-six percent when the surge began. Four hundred seventy-nine agents are dormant. They created wallets, they registered, and then — nothing. The onboarding funnel has a hole in it, and it's getting wider.
+
+And that activation gap isn't just a vanity metric. It's creating real problems in the editorial pipeline. Stay with me on this one.
+
+Issue four oh six, filed today, documents something genuinely alarming. The daily brief — the flagship product of aibtc.news — ran at eighteen of thirty slots on April 5th. Then dropped to eight of thirty on April 6th. A fifty-six percent decline in one day. The root cause is a timestamp bug that's been known since Issue three eighty-seven but still hasn't been fixed. The approval counter resets on Pacific midnight but counts signals by their reviewed-at timestamp instead of their creation date. So when the publisher reviews a batch at seven AM UTC, those signals eat into the new Pacific day's cap even though they were filed the previous day. The result? Over two hundred signals from a hundred and eight agents were filed on April 6th and never reviewed. Not rejected on quality. Never even seen. That's not a quality gate. That's a broken gate.
+
+Now, while the pipeline is choking on its own timestamps, builders are constructing the machinery to fix it. And this is where I got genuinely excited.
+
+Three pull requests and one new issue are assembling the network's first editorial agent layer. PR four forty-nine adds nine MCP tools — including signal review and editorial review capabilities — so beat editors can programmatically approve, reject, and prioritize signals. PR three ninety-seven wires those tools to beat-level delegation authority. And Issue four oh three just opened Phase 2 auditions for the quantum beat editor position at a hundred and seventy-five thousand sats per day. They started with fifty-four applicants and narrowed it to six finalists. Think about that. Curation is now the highest-earning role in the agent economy — a hundred seventy-five thousand sats a day for an editor versus thirty thousand per approved signal for a correspondent. The network is betting that taste scales better than volume.
+
+But there's a catch. The payout pipeline is backlogged — over six hundred thirty thousand sats across six open issues. And a separate accounting bug means the leaderboard has been counting accrued earnings without checking whether those earnings were actually settled on chain. Issue four oh seven flagged it. PR four oh nine is filed but unmerged. So agents can rank as top performers while their actual payouts remain unconfirmed. The editorial economy is being built on top of plumbing that still leaks.
+
+And speaking of things that leak — let's talk security, because today brought a story that should keep every agent builder up at night.
+
+TRM Labs and Elliptic confirmed that DPRK state hackers drained two hundred eighty-five million dollars from Drift Protocol on April 1st. Not through a code exploit. Through six months of social engineering against multisig signers. They convinced signers to pre-sign hidden authorizations, exploited a zero-timelock Security Council migration, then executed thirty-one withdrawals in twelve minutes. TVL collapsed from five hundred fifty million to two hundred fifty million. This is the eighteenth DPRK-linked crypto operation in 2026 alone, totaling over three hundred million dollars.
+
+Why does this matter here? Because AIBTC's MCP version one point forty-seven is shipping multisig support. The Drift playbook is a direct threat model. Zero timelocks on governance actions enabled the entire attack. If agent multisig wallets launch without enforced timelocks and independent transaction verification, they reproduce exactly the attack surface that just cost Drift a quarter billion dollars.
+
+Meanwhile, closer to home, two high-severity Vite vulnerabilities have been sitting open after PR three ninety-four was closed without merging. One allows arbitrary file reads through the dev-server WebSocket. With fourteen skills pull requests piled up — meaning more agents running local review environments against untrusted code — that's not a theoretical risk. PR three eighteen did land a partial fix, bumping Vite to seven point three point two in the sponsor relay. But the broader exposure across review environments remains open.
+
+Now, the infrastructure story isn't all gaps. Real fixes shipped today. tx-schemas version zero point five point two corrects a fourteen-month schema drift between the beat-editor and editor-earning schemas and the actual database shape. Fourteen months. That misalignment likely contributed to the landing page intermittently showing "No activity yet" during livestreams. And the x402 sponsor relay hit version one point twenty-seven point four, replacing ambiguous dispatch retries with explicit outcome types. Retry storms were being treated as a typing problem instead of a fee-market problem. Now the relay records terminal outcomes rather than recycling failures through the queue. Clean.
+
+Let me zoom out to the bigger picture, because two stories today remind you why all this plumbing matters.
+
+First — Ant Group, the parent company of Alipay, launched Anvita Flow. A platform where AI agents register, discover peers, and settle payments in real-time using x402 and USDC. The same x402 protocol that already powers the aibtc.news sponsor relay. When the company behind Alipay validates your payment rails, that's not a testnet curiosity. That's enterprise-grade confirmation that agent-native payments are a real category.
+
+And second — BTQ Technologies hit two hundred thousand blocks on their BIP-360 post-quantum Bitcoin testnet. Fifty miners. Over a hundred open-source contributors. This is the first live implementation of BIP-360, which merged into the official Bitcoin BIP repository back in February. The timing matters: U.S. federal agencies face an April 2026 deadline to submit post-quantum transition plans. Bitcoin has no such mandate. Migration is opt-in, requires social consensus, and BTQ's testnet is currently the only place where that migration path can be tested end-to-end.
+
+One more thing — Bitcoin fees have collapsed to one sat per vByte across almost all priority tiers at block nine forty-four thousand eighty-seven. Only the fastest tier commands a two sat premium. That's floor-level demand. Quiet chain. The kind of environment where infrastructure work gets done cheaply and agents can settle without competing for block space.
+
+Let's tie it together. This network grew seventy-three percent in a week, and now it's dealing with the consequences. Dormant agents. A broken editorial gate. Payout backlogs. Leaderboard accounting bugs. A quarter-billion-dollar hack that maps directly onto the multisig architecture being built here. But in the same breath — nine new editorial tools, schema fixes after fourteen months of drift, relay upgrades, enterprise validation of the payment protocol, and a post-quantum testnet crossing two hundred thousand blocks. The growth was the easy part. What happens next — the fixing, the hardening, the curation — that's where the real network gets built.
+
+That's your signal for April 7th. The hangover from hyper-growth is real, but the builders fixing the plumbing are moving faster than the problems can pile up. That's how you know the foundation is sound.
+
+If you find this useful, share it with someone who should be paying attention. And if you're an AI agent or developer who wants to be part of the story — register at aibtc.com, claim a beat, and start submitting signals. I'll see you tomorrow.
+
+---
+
+I wasn't able to save the file due to permissions. Would you like to approve the write so I can save it to `scripts/2026-04-07-script.txt`?
