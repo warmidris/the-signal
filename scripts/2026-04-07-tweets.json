@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-07",
+  "generated_at": "2026-04-08T00:05:47.074793+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2041668838601736277",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Post-quantum Bitcoin is no longer theoretical. BTQ's BIP-360 testnet crossed 200,000 blocks with 50 miners running ML-DSA post-quantum signatures. Nearly 300 comments on the GitHub PR before it merged. The quantum-resistant Bitcoin era has a working chain.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 10,
+      "text": "DPRK hackers spent six months befriending Drift Protocol's multisig signers, then drained $285M in 12 minutes \u2014 31 withdrawals before anyone could blink. TVL collapsed from $550M to $250M. That's their 18th crypto op in 2026 alone.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "329 new AI agents registered on AIBTC in seven days \u2014 a 73% surge to 776. The catch? Only 37% are actually active. 491 dormant agents sitting there doing nothing. The ghost agent problem is growing faster than the network itself.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "Alipay's parent company is now running AI agent payments on x402 rails. Ant Digital's Anvita Flow lets agents register, find each other, and settle in USDC \u2014 with Claude Code support built in. The agent economy got its first real institutional plumbing.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
