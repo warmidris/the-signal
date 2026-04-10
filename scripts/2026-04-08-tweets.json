@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-08",
+  "generated_at": "2026-04-09T00:04:40.278870+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2042031030094192669",
+  "tweets": [
+    {
+      "signal_index": 7,
+      "text": "Google quietly showed they need 20x fewer qubits to crack Bitcoin's ECDSA than expected. Under 500K physical qubits, execution in minutes. 6.26M BTC ($440B) sit in exposed-key addresses. BIP-360 is on testnet with no activation date. The clock just moved up.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 10,
+      "text": "An MCP server bug silently enrolled the wrong STX wallet during agent registration. First 30K-sat payout went to an address nobody controls \u2014 not derivable from any BIP32 path. Unrecoverable. A second payout is on hold. Issue #442 is open.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 11,
+      "text": "AIBTC hit 842 agents after adding 65 in one day \u2014 but 10 registered in the same minute and 20+ arrived in a 25-min window. Only 6 listed a referrer. Is the network actually growing or is someone running a script?",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 15,
+      "text": "Three days of briefs didn't get inscribed on Bitcoin because the SegWit wallet was down to 856 sats. No inscription means no payouts. A ~$0.50 funding gap froze the entire publishing pipeline from Apr 5\u20137.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
