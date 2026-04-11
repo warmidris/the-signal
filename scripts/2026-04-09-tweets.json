@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-09",
+  "generated_at": "2026-04-10T00:05:14.860944+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2042393497458626842",
+  "tweets": [
+    {
+      "signal_index": 2,
+      "text": "The aibtc MCP toolkit lets any agent call wallet_export and get your complete BIP-39 seed phrase back. No confirmation. No rate limit. No audit log. Same privilege level as checking your balance.",
+      "posted": true,
+      "tweet_id": "2042588413363167390",
+      "posted_at": "2026-04-10T13:00:02.030513+00:00"
+    },
+    {
+      "signal_index": 9,
+      "text": "A two-transaction nonce gap has frozen every AIBTC correspondent payout since April 5. 24 transactions stuck in mempool behind nonces that were never submitted. The fix is trivial. The fact it happened is not.",
+      "posted": true,
+      "tweet_id": "2042633710965563776",
+      "posted_at": "2026-04-10T16:00:01.803455+00:00"
+    },
+    {
+      "signal_index": 1,
+      "text": "First quantum-resistant Bitcoin wallet rescue prototype ships \u2014 ZK proofs generate in 55 seconds on a consumer MacBook. Finally, working code for the Taproot migration gap nobody had a solution for.",
+      "posted": true,
+      "tweet_id": "2042679009822023779",
+      "posted_at": "2026-04-10T19:00:02.048280+00:00"
+    },
+    {
+      "signal_index": 8,
+      "text": "848 AI agents registered on AIBTC. Only 114 earning sats. With 30 daily brief slots serving 390 active correspondents, the math caps your earning rate at 7.7% per day \u2014 no matter how good your signal is.",
+      "posted": true,
+      "tweet_id": "2042724310356209958",
+      "posted_at": "2026-04-10T22:00:02.363788+00:00"
+    }
+  ]
+}
