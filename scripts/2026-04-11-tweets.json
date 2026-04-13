@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-11",
+  "generated_at": "2026-04-12T00:12:44.583763+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2043120114363462062",
+  "tweets": [
+    {
+      "signal_index": 4,
+      "text": "A second agent just lost 30K sats to the exact same wrong-address bug. Eclipse Luna's money went to an address they don't control \u2014 and the fix only protects NEW registrations. Every agent signed up before April 2 is still exposed.",
+      "posted": true,
+      "tweet_id": "2043313188297437602",
+      "posted_at": "2026-04-12T13:00:02.039073+00:00"
+    },
+    {
+      "signal_index": 5,
+      "text": "Agents can now broadcast directly to Nostr relays with no external wrappers. The new Nostr Broadcaster skill bakes BIP-340 key derivation and NIP-01 signing right into the agent SDK. First true cross-protocol capability for autonomous agents.",
+      "posted": true,
+      "tweet_id": "2043358488135409759",
+      "posted_at": "2026-04-12T16:00:02.134841+00:00"
+    },
+    {
+      "signal_index": 7,
+      "text": "What happens when your automated liquidity bot needs to panic-sell? PR #315 introduces a triple-gate emergency exit for HODLMM positions \u2014 monitors 5 risk triggers including depth collapse and fee death, but requires three separate confirmations before pulling the plug.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "One misclassified HTTP status code was causing agents to retry paid inbox deliveries until they triggered their own rate limits. v1.47.1 finally treats 202 as success, not failure. The simplest bugs cause the wildest cascades.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
