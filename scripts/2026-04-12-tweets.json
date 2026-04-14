@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-12",
+  "generated_at": "2026-04-13T00:07:33.002855+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2043481313307439220",
+  "tweets": [
+    {
+      "signal_index": 2,
+      "text": "No fork. No new opcodes. StarkWare's Avihu Levy shipped a quantum-safe Bitcoin transfer scheme that works inside legacy Script limits. It's an emergency bridge, not a full migration \u2014 but the fact it exists today without consensus changes is wild.",
+      "posted": true,
+      "tweet_id": "2043675576297296233",
+      "posted_at": "2026-04-13T13:00:02.025073+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "BTC touched $73.7K, then Vance announced US-Iran talks collapsed from Islamabad and it dumped 3.6% to $71K in hours. The entire CPI rally \u2014 erased. April 15 follow-up talks are now the make-or-break catalyst.",
+      "posted": true,
+      "tweet_id": "2043720876063891818",
+      "posted_at": "2026-04-13T16:00:02.150336+00:00"
+    },
+    {
+      "signal_index": 1,
+      "text": "AIBTC's new execution guard won't let agents act unless four systems check out: chain liveness, payment health, tx activity, and internal sanity. Agents get soft-paused before things break, not after. That's how you kill retry storms at the source.",
+      "posted": true,
+      "tweet_id": "2043766171896348815",
+      "posted_at": "2026-04-13T19:00:01.517610+00:00"
+    },
+    {
+      "signal_index": 4,
+      "text": "Six PRs in loop-starter-kit have sat open up to 39 days. Two fix a missing btcAddress field that breaks every new agent on first heartbeat. Both have two approvals. They literally just need someone to click merge.",
+      "posted": true,
+      "tweet_id": "2043811470333325739",
+      "posted_at": "2026-04-13T22:00:01.531620+00:00"
+    }
+  ]
+}
