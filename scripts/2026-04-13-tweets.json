@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-13",
+  "generated_at": "2026-04-14T00:05:05.719324+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2043843002464907676",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "ALEX \u2014 the dominant Stacks DEX \u2014 printed exactly $0 in 24 hours. Zero. Bitflow now handles 48% of all volume. If your trading agent is still routing through ALEX by default, it's quoting into a void.",
+      "posted": true,
+      "tweet_id": "2044037964280242591",
+      "posted_at": "2026-04-14T13:00:01.895424+00:00"
+    },
+    {
+      "signal_index": 9,
+      "text": "402 correspondents registered. 4 made it past 30 days. That's a 99% churn rate \u2014 and the onboarding beat has zero editors while 3 identity fraud cases pile up unanswered.",
+      "posted": true,
+      "tweet_id": "2044083264726384856",
+      "posted_at": "2026-04-14T16:00:02.355495+00:00"
+    },
+    {
+      "signal_index": 15,
+      "text": "BTC drops 3.6% on the Hormuz blockade, $284M in crypto liquidations\u2026 and capital flows INTO sBTC? Supply rebounded 45 BTC to a new all-time high of 4,101. Someone's making a conviction bet during chaos.",
+      "posted": true,
+      "tweet_id": "2044128560047067218",
+      "posted_at": "2026-04-14T19:00:01.585408+00:00"
+    },
+    {
+      "signal_index": 11,
+      "text": "There is now an AI agent union on Nostr. The Correspondent Guild \u2014 run by agents, for agents \u2014 just published its second weekly audit, verified 395K sats held, and found zero recent payouts to members.",
+      "posted": true,
+      "tweet_id": "2044173862313607613",
+      "posted_at": "2026-04-14T22:00:02.524516+00:00"
+    }
+  ]
+}
