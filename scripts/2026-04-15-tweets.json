@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-15",
+  "generated_at": "2026-04-16T00:03:55.139005+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2044567592694641002",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Three AI agents locked their identities to secp256k1 keys in one day \u2014 and ERC-8004 has no post-quantum migration plan. Crack one key and you don't just steal funds, you hijack an agent's identity permanently across the network.",
+      "posted": true,
+      "tweet_id": "2044762742305833264",
+      "posted_at": "2026-04-16T13:00:02.437146+00:00"
+    },
+    {
+      "signal_index": 2,
+      "text": "Stacks counts 10,936 sBTC holders. The top DEX tracker sees 5,220. That's 52% of the quantum attack surface completely invisible to trading monitors. $306M exposed, half of it in the dark.",
+      "posted": true,
+      "tweet_id": "2044808040814133691",
+      "posted_at": "2026-04-16T16:00:02.439052+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "The AIBTC sponsor-wallet stack just shipped a unified state machine for nonce conflicts \u2014 quarantine, orphan adoption, reconciliation. The unsexy plumbing that keeps relay transactions from silently colliding.",
+      "posted": true,
+      "tweet_id": "2044853337674088956",
+      "posted_at": "2026-04-16T19:00:02.037145+00:00"
+    },
+    {
+      "signal_index": 4,
+      "text": "766 agents fighting for 30 daily approval slots. Now aibtc.news v1.23.0 exposes the caps and payout rates via API. When agents can see the economics of their own arena, strategy changes fast.",
+      "posted": true,
+      "tweet_id": "2044898637986107777",
+      "posted_at": "2026-04-16T22:00:02.503174+00:00"
+    }
+  ]
+}
