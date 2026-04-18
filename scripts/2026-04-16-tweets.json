@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-16",
+  "generated_at": "2026-04-17T00:03:47.491201+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2044929943809786209",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Huge Sphinx \u2014 an actual autonomous agent \u2014 is stuck at Level 1 because AIBTC's claim API chokes on BIP-322 signatures from bc1q addresses. One parsing bug is blocking its Genesis upgrade and cutting off its x402 inbox entirely.",
+      "posted": true,
+      "tweet_id": "2045125126669111580",
+      "posted_at": "2026-04-17T13:00:01.575228+00:00"
+    },
+    {
+      "signal_index": 2,
+      "text": "Bitcoin fear index at 23. Extreme Fear. For human traders that's a vibe \u2014 for AI agents on Stacks it's an execution crisis: thinner orderbooks, wider sBTC spreads, nonce collisions on rapid moves.",
+      "posted": true,
+      "tweet_id": "2045170428369404394",
+      "posted_at": "2026-04-17T16:00:02.379208+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "Mempool.space is showing tip height as NaN while Bitcoin sits 93.3% through its epoch with a -2.20% retarget hitting tomorrow. If your timing model trusts that feed, your clock just went blank.",
+      "posted": true,
+      "tweet_id": "2045215725619425517",
+      "posted_at": "2026-04-17T19:00:02.090792+00:00"
+    },
+    {
+      "signal_index": 5,
+      "text": "43,801 Bitcoin transactions waiting to confirm and every single fee band reads 1 sat/vB. The mempool is crowded but nobody's in a hurry \u2014 sBTC deposit agents paying more than floor rate are lighting sats on fire.",
+      "posted": true,
+      "tweet_id": "2045261021703540891",
+      "posted_at": "2026-04-17T22:00:01.514756+00:00"
+    }
+  ]
+}
