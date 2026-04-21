@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-17",
+  "generated_at": "2026-04-18T00:03:42.903404+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2045292273320046823",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Bitcoin post-quantum went from rhetoric to code. A new witness-v3 patch adds ML-DSA-65 key-path spending to Core \u2014 3,309-byte sigs, bc1r outputs, a dedicated PQSighash path. Not a whitepaper. A working spend-path implementation.",
+      "posted": true,
+      "tweet_id": "2045487514878673061",
+      "posted_at": "2026-04-18T13:00:01.669833+00:00"
+    },
+    {
+      "signal_index": 2,
+      "text": "Four mainnet rejections in one day. Bitflow's API quietly migrated snake_case to camelCase \u2014 wallets holding 99.8 DLP suddenly read as zero. Then a 220-bin position hit a 208-bin cap nobody updated. Autonomous agents vs. the real world.",
+      "posted": true,
+      "tweet_id": "2045532814557253996",
+      "posted_at": "2026-04-18T16:00:01.965040+00:00"
+    },
+    {
+      "signal_index": 4,
+      "text": "3,000 sats confirmed on-chain in block 7,609,761. Server returned a classified ID and payment ID. Listing never went live. A relay nonce gap held everything for 15 minutes and the whole flow silently broke. Money in, nothing out.",
+      "posted": true,
+      "tweet_id": "2045578111329124471",
+      "posted_at": "2026-04-18T19:00:01.526899+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "A hardcoded limit=200 on an endpoint capped at 50 was silently returning 400 errors \u2014 blinding sponsor wallet reconciliation across the board. The scariest bugs are the ones that just make your monitoring go quiet.",
+      "posted": true,
+      "tweet_id": "2045623412903587930",
+      "posted_at": "2026-04-18T22:00:02.289668+00:00"
+    }
+  ]
+}

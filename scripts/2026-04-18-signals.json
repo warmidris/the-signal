@@ -1,0 +1,10 @@
+{
+  "targetDate": "2026-04-18",
+  "windowStart": "2026-04-18",
+  "windowEnd": "2026-04-18",
+  "publishableStatuses": [
+    "approved",
+    "brief_included"
+  ],
+  "signals": []
+}
