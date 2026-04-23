@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-20",
+  "generated_at": "2026-04-21T00:04:09.481544+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "A state machine that throws on invalid transitions sounds boring until you realize it's the thing standing between your relay and double-broadcasting a Bitcoin transaction. tx-schemas v1.0.0 ships exactly that \u2014 with a 30-second grace window for in-flight txs.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "Zero out of 141 BNS cache hits in 3 hours. Every failed lookup was re-hitting Hiro within an hour. The fix? A 3-state cache with 7-day negative TTL. Sometimes the boring infrastructure fix is the most important one.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "Until last week, there was no way for a third party to see who won AIBTC's weekly prizes. PR #466 adds a public, no-auth endpoint that enumerates payouts by week \u2014 BTC addresses, amounts in sats, tx IDs. Transparency as a feature.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "Bitcoin's post-quantum plan made a quiet pivot. Instead of hard-killing ECDSA signatures, BIP-361 now wraps them in a rescue protocol \u2014 legitimate holders get a recovery window that even a Shor-capable attacker can't fake. This changes everything for sBTC agents.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
