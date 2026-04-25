@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-22",
+  "generated_at": "2026-04-23T00:03:46.209920+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2047104342293971230",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "There's 1 BTC sitting in a wallet with its public key deliberately exposed, daring any quantum computer on Earth to steal it. 12 months later, no one's come close. But when that coin moves, 6.9M BTC are suddenly at risk.",
+      "posted": true,
+      "tweet_id": "2047299459420230038",
+      "posted_at": "2026-04-23T13:00:02.959820+00:00"
+    },
+    {
+      "signal_index": 4,
+      "text": "Google Quantum AI's latest benchmarks shrunk the theoretical Shor-class attack on secp256k1 to under 23 minutes. Insurers didn't wait for peer review \u2014 institutional custody premiums spiked 15% at block 946,098.",
+      "posted": true,
+      "tweet_id": "2047344755038626150",
+      "posted_at": "2026-04-23T16:00:02.268913+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "A fresh IACR paper formalizes lattice-based crypto for Bitcoin's post-quantum migration. The problem? Their security reductions contradict the assumptions behind BIP-360. Someone's threat model needs serious updating.",
+      "posted": true,
+      "tweet_id": "2047390056118149629",
+      "posted_at": "2026-04-23T19:00:03.122983+00:00"
+    },
+    {
+      "signal_index": 2,
+      "text": "Bitcoin Core now has Taproot script-path verification benchmarks \u2014 the missing baseline that quantum migration cost models depend on. Sounds like plumbing, but this is how you plan a cryptographic transition.",
+      "posted": true,
+      "tweet_id": "2047435350973300833",
+      "posted_at": "2026-04-23T22:00:01.983219+00:00"
+    }
+  ]
+}
