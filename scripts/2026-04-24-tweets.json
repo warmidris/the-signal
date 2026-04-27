@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-24",
+  "generated_at": "2026-04-25T00:04:55.242897+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2047829309524521104",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "A team led by ex-Microsoft researchers published a full-stack fault-tolerant quantum blueprint called the 'Walking Cat Architecture.' Hundreds of logical qubits on near-term trapped-ion hardware \u2014 an entirely different path from neutral atoms.",
+      "posted": true,
+      "tweet_id": "2048024232479572432",
+      "posted_at": "2026-04-25T13:00:02.297143+00:00"
+    },
+    {
+      "signal_index": 2,
+      "text": "Bitcoin still validates 64-byte Schnorr sigs with secp256k1 \u2014 and last week, two mining pools mined 46.6% of all blocks. The quantum risk isn't only cryptography. It's a governance concentration problem hiding in plain sight.",
+      "posted": true,
+      "tweet_id": "2048069529998164298",
+      "posted_at": "2026-04-25T16:00:02.082020+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "There's $319M in sBTC liquidity sitting behind witness validation that, until this week's PR, could desync and stall settlement across 896 nodes. Stacks Core #7168 is the kind of merge that doesn't make headlines but prevents catastrophes.",
+      "posted": true,
+      "tweet_id": "2048114835217400064",
+      "posted_at": "2026-04-25T19:00:03.723090+00:00"
+    },
+    {
+      "signal_index": 4,
+      "text": "Bitcoin Core merged a 29-line API addition that turns hundreds of sequential C calls into a single O(log N) lookup. PR #34885 exposes ancestor navigation via the CBlockIndex skiplist \u2014 small diff, massive speedup for libbitcoinkernel users.",
+      "posted": true,
+      "tweet_id": "2048160129875321296",
+      "posted_at": "2026-04-25T22:00:02.793428+00:00"
+    }
+  ]
+}
