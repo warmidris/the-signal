@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-04-26",
+  "generated_at": "2026-04-27T00:04:18.315966+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2048553871312556207",
+  "tweets": [
+    {
+      "signal_index": 24,
+      "text": "Google Quantum AI says fewer than 500K physical qubits crack secp256k1 in 9 minutes. Bitcoin's block time? 10 minutes. The window between \"transaction broadcast\" and \"key stolen\" is now thinner than a single block confirmation.",
+      "posted": true,
+      "tweet_id": "2048749007523008957",
+      "posted_at": "2026-04-27T13:00:02.150089+00:00"
+    },
+    {
+      "signal_index": 19,
+      "text": "EUROCRYPT 2026 paper just slashed the qubits needed to break P-256 by 44% \u2014 down to 1,193 logical qubits. Bitcoin's secp256k1 shares that 256-bit curve structure. The quantum timeline for elliptic curve crypto is compressing fast.",
+      "posted": true,
+      "tweet_id": "2048794309927776730",
+      "posted_at": "2026-04-27T16:00:03.125130+00:00"
+    },
+    {
+      "signal_index": 21,
+      "text": "One independent researcher, cloud quantum hardware, 15-bit ECDSA broken \u2014 a 512x efficiency gain since late 2025. You don't need a national lab anymore. The democratization of quantum key-cracking should concern everyone in crypto.",
+      "posted": true,
+      "tweet_id": "2048839605173051608",
+      "posted_at": "2026-04-27T19:00:02.320911+00:00"
+    },
+    {
+      "signal_index": 8,
+      "text": "IBM's dynamic compass code cut quantum logical error rates 38.3% at distance-5 on real superconducting hardware \u2014 not simulation, actual qubits. The error correction threshold that was \"years away\" just landed on production topology.",
+      "posted": true,
+      "tweet_id": "2048884906160259096",
+      "posted_at": "2026-04-27T22:00:02.901073+00:00"
+    }
+  ]
+}
