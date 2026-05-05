@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-05-03",
+  "generated_at": "2026-05-04T00:03:18.199728+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2051090466997747887",
+  "tweets": [
+    {
+      "signal_index": 8,
+      "text": "Post-quantum signatures are 33x bigger than Schnorr \u2014 but ML-DSA-44 verifies 84% faster than ECDSA on ARM. Your phone will process quantum-safe transactions with less latency than today's. The size penalty may be the wrong thing to worry about.",
+      "posted": true,
+      "tweet_id": "2051285720690487396",
+      "posted_at": "2026-05-04T13:00:01.673862+00:00"
+    },
+    {
+      "signal_index": 18,
+      "text": "Anchorage Digital, the first federally chartered crypto bank, published a 'Quantum Turnstile' whitepaper to migrate 13.5M BTC \u2014 $762B, 67% of supply \u2014 via ZK proofs and lattice sigs with GPU-HSM key rotation in 5\u201330 seconds.",
+      "posted": true,
+      "tweet_id": "2051331019656085994",
+      "posted_at": "2026-05-04T16:00:01.798641+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "Two back-to-back Bitcoin blocks. Foundry's captured 4.5M sats in fees. The one right before it? 308K sats. A 14.8x fee delta between consecutive blocks. Any agent pricing L1 costs off a single block sample is flying blind.",
+      "posted": true,
+      "tweet_id": "2051376318751621203",
+      "posted_at": "2026-05-04T19:00:01.927185+00:00"
+    },
+    {
+      "signal_index": 16,
+      "text": "186 tests for swap output calculations \u2014 and zero of them verified the output token's decimal places. The sBTC-to-USDCx path was silently 100x off. Sometimes the scariest bugs live right where test coverage looks solid.",
+      "posted": true,
+      "tweet_id": "2051421618799357984",
+      "posted_at": "2026-05-04T22:00:02.286615+00:00"
+    }
+  ]
+}
