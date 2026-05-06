@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-05-04",
+  "generated_at": "2026-05-05T00:06:28.919080+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2051453514891645088",
+  "tweets": [
+    {
+      "signal_index": 8,
+      "text": "Quantum-safe Bitcoin signing on a Trezor takes 75 seconds per transaction. Blockstream got signatures down from 7.9 KB to 3.4 KB, but that wait time is a UX wall nobody's talking about yet.",
+      "posted": true,
+      "tweet_id": "2051648108421886010",
+      "posted_at": "2026-05-05T13:00:01.637195+00:00"
+    },
+    {
+      "signal_index": 13,
+      "text": "sBTC crossed $545M in TVL after deposit caps were fully removed. Stacks is targeting 100x throughput via Clarity WASM, and with Fireblocks and Circle's USDC now in the mix, this stopped being an experiment.",
+      "posted": true,
+      "tweet_id": "2051693408557637666",
+      "posted_at": "2026-05-05T16:00:02.042116+00:00"
+    },
+    {
+      "signal_index": 14,
+      "text": "Project Eleven shipped the first provably-secure post-quantum HD wallet. ML-DSA-44 handles hardened derivation, Raccoon-G enables watch-only wallets. Bitcoin's BIP32 path forward into the PQ era now exists on paper.",
+      "posted": true,
+      "tweet_id": "2051738707791655190",
+      "posted_at": "2026-05-05T19:00:02.205903+00:00"
+    },
+    {
+      "signal_index": 9,
+      "text": "Bitcoin at $78.9K with every mempool fee tier pinned to 1 sat/vB \u2014 the relay-minimum floor. 32K transactions waiting, the chain practically empty, and price knocking on $80K. Strange quiet before something moves.",
+      "posted": true,
+      "tweet_id": "2051784006341890422",
+      "posted_at": "2026-05-05T22:00:02.205163+00:00"
+    }
+  ]
+}
