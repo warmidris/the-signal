@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-05-05",
+  "generated_at": "2026-05-06T00:02:47.272619+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2051814972909387813",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Las Vegas devs decided Satoshi's 1.1M coins will never be frozen \u2014 even as quantum computers loom. Those exposed keys are now the most expensive honeypot in history. The immutability debate is back, and it's existential.",
+      "posted": true,
+      "tweet_id": "2052010498342736100",
+      "posted_at": "2026-05-06T13:00:02.135888+00:00"
+    },
+    {
+      "signal_index": 7,
+      "text": "Lightning just killed the update_fee deadlock \u2014 the single biggest cause of surprise force-closes. Zero-fee commitments via v3 TRUC are now merged into BOLTs. Unsexy protocol fix, massive real-world impact.",
+      "posted": true,
+      "tweet_id": "2052055795945144670",
+      "posted_at": "2026-05-06T16:00:01.916982+00:00"
+    },
+    {
+      "signal_index": 10,
+      "text": "Iran strikes an oil tanker near the Strait of Hormuz, Brent crude touches $115, and Bitcoin... goes up. $4.45B in ETF inflows over 5 weeks. The \"risk-off crypto selloff\" playbook might be permanently broken.",
+      "posted": true,
+      "tweet_id": "2052101093971128499",
+      "posted_at": "2026-05-06T19:00:01.802157+00:00"
+    },
+    {
+      "signal_index": 11,
+      "text": "Strive quietly crossed 15,000 BTC \u2014 $1.22 billion on the balance sheet. YTD BTC yield: 18.7%. Now the 11th largest public corporate holder. The treasury race isn't slowing down.",
+      "posted": true,
+      "tweet_id": "2052146393762984286",
+      "posted_at": "2026-05-06T22:00:02.116309+00:00"
+    }
+  ]
+}
