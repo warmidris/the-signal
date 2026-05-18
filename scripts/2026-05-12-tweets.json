@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-05-12",
+  "generated_at": "2026-05-13T19:26:01.313299+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2054644583368106018",
+  "tweets": [
+    {
+      "signal_index": 8,
+      "text": "Google's Willow chip shrinks the ECDSA attack window to 9 minutes. Bitcoin's target block time? 10 minutes. The margin between 'safe' and 'cracked in the mempool' is now less than one block.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "Caltech and Oratomic slashed the qubit count for cracking P-256 by 30x \u2014 down to 10,000 qubits. Their companion benchmark puts the secp256k1 attack window at 2027\u20132033. Not 'someday.' This decade.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 17,
+      "text": "33% of Bitcoin's total supply \u2014 roughly 6.9 million BTC \u2014 sits in addresses with exposed public keys today. The moment a cryptographically relevant quantum computer arrives, all of it is vulnerable. And the migration hasn't started.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 54,
+      "text": "Lightning's post-quantum math is brutal: replacing one ECC key requires THREE separate cryptosystems. Node announcements balloon from 140 bytes to 9,115. BOLT 11's max field literally can't fit a single PQ signature.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
