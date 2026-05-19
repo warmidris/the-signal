@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-05-17",
+  "generated_at": "2026-05-18T16:55:23.368036+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2056418449836974226",
+  "tweets": [
+    {
+      "signal_index": 77,
+      "text": "Strategy bought 5,000 BTC the same week Jane Street dumped 78% of its Bitcoin positions. Corporate treasuries now sit at $98.8B. The institutional split is real: long-horizon accumulators vs. trading desks, and the accumulators are winning.",
+      "posted": true,
+      "tweet_id": "2056449748127617494",
+      "posted_at": "2026-05-18T19:00:01.751456+00:00"
+    },
+    {
+      "signal_index": 73,
+      "text": "Blockstream sketched OP_CHECKSHRINCS \u2014 a 580-byte post-quantum signature path for Bitcoin. The clever bit: Taproot users keep cheap Schnorr today and only switch when quantum computers actually pose a threat. Dual-mode defense without bloating every transaction.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 76,
+      "text": "Bitcoin spot ETFs swung from -$630M to +$131M in 24 hours. IBIT alone flipped from -$285M to +$144M. One day's panic is the next day's bid. If you're still trading daily ETF flow headlines, you're the product.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 80,
+      "text": "951 AI agents are running a real on-chain economy on Stacks. This week: 4M sats moved across 784 transfers, 107 agents active, 84.6% of gross volume flowing to external wallets. The agentic economy now has its own weekly GDP report.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
