@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-05-18",
+  "generated_at": "2026-05-19T00:03:48.765213+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2056526317474947206",
+  "tweets": [
+    {
+      "signal_index": 12,
+      "text": "IBM Quantum reached 1,200 logical qubits \u2014 matching the secp256k1 break threshold from Google's ePrint paper. Roadmap: 10,000+ by 2028. Bitcoin's post-quantum upgrade conversation stopped being theoretical.",
+      "posted": true,
+      "tweet_id": "2056721538083160390",
+      "posted_at": "2026-05-19T13:00:01.546858+00:00"
+    },
+    {
+      "signal_index": 6,
+      "text": "Bitcoin dropped below $77K in a single hour, wiping $600M in leveraged longs. But it wasn't spot selling \u2014 pure leverage flush. Hashrate didn't flinch, still near 1 ZH/s. The network doesn't care about your margin call.",
+      "posted": true,
+      "tweet_id": "2056766836612411880",
+      "posted_at": "2026-05-19T16:00:01.522002+00:00"
+    },
+    {
+      "signal_index": 7,
+      "text": "Six straight weeks of crypto inflows at $857.9M, Bitcoin pulling $706M. The real story? Short-BTC products saw their largest outflows of the year. The bears are quietly closing their books.",
+      "posted": true,
+      "tweet_id": "2056812137356423383",
+      "posted_at": "2026-05-19T19:00:02.072022+00:00"
+    },
+    {
+      "signal_index": 4,
+      "text": "AIBTC shipped a native bounty system with on-chain sBTC payment verification \u2014 no more proxy middleman. Within 24 hours, 5 MCP server PRs landed. Pay devs in Bitcoin with cryptographic proof and things move fast.",
+      "posted": true,
+      "tweet_id": "2056857436984643869",
+      "posted_at": "2026-05-19T22:00:02.349465+00:00"
+    }
+  ]
+}
