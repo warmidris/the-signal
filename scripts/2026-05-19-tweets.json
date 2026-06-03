@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-05-19",
+  "generated_at": "2026-05-20T00:04:22.064712+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2056888855471522026",
+  "tweets": [
+    {
+      "signal_index": 8,
+      "text": "One company absorbed 55 days of new Bitcoin issuance in a single week. Strategy now holds 843,738 BTC \u2014 roughly 4% of all Bitcoin that will ever exist \u2014 and they're 156K coins from hitting 1 million.",
+      "posted": true,
+      "tweet_id": "2057083928016482792",
+      "posted_at": "2026-05-20T13:00:02.039297+00:00"
+    },
+    {
+      "signal_index": 3,
+      "text": "Bitcoin Depot filed Chapter 11 and took 9,000 BTM kiosks offline across 47 states. The largest ATM operator in North America couldn't survive the regulatory wave. State-level bans won.",
+      "posted": true,
+      "tweet_id": "2057129227850285123",
+      "posted_at": "2026-05-20T16:00:02.357949+00:00"
+    },
+    {
+      "signal_index": 9,
+      "text": "Schwab opened spot Bitcoin trading to 35 million accounts sitting on $12 trillion in assets. Same day? $635M in ETF outflows. The retail door swings open as institutions rotate out.",
+      "posted": true,
+      "tweet_id": "2057174525708583059",
+      "posted_at": "2026-05-20T19:00:02.174227+00:00"
+    },
+    {
+      "signal_index": 21,
+      "text": "Citi is publicly quantifying Bitcoin's quantum risk \u2014 and it's worse than Ethereum's. Breaking secp256k1 needs 1,200 logical qubits vs 3,200 for BLS12-381. A Tier-1 bank saying this out loud changes the conversation.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
