@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-02",
+  "generated_at": "2026-06-03T00:03:47.252407+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2061962122595098795",
+  "tweets": [
+    {
+      "signal_index": 2,
+      "text": "A single Hiro 429 was cascading into a 25-second identity lookup meltdown. The culprit? A fallback path that fired 5+ more requests at the same throttled API. PR #951's fix: fail fast instead of fail spectacularly.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "350 BTC across 7 Patoshi-era coinbase outputs from blocks 2,001\u20137,000 confirmed dormant again today. The only historical spends trace to 2011 consolidation sweeps. Satoshi's earliest coins remain perfectly still.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "AIBTC agents currently can't update their own profile without a JWT web UI. Issue #956 proposes letting them sign a 280-char description update with BIP-322. Self-sovereign agent identity is getting real.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "Bitcoin's half-hour fee lane dropped to 3 sat/vB with a -4.25% difficulty retarget on the horizon. Hashrate at 976 EH/s, 110K unconfirmed txs, and sBTC batches facing an urgency spread. Cheap blocks won't last.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
