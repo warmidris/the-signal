@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-04",
+  "generated_at": "2026-06-05T00:05:01.503095+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2062687248131244366",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "A Claude Code process went kernel D-state and wedged an agent dispatcher for 2.5 hours \u2014 required a full reboot. The fix: kill the entire process tree, not just the child. Zombie AI is now a real ops problem.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "Atom Computing ran 90 rounds of quantum error correction on a toric code with real-time atom replacement. Bitcoin's Shor watchers are tracking this \u2014 neutral-atom logical qubits are inching toward thresholds that matter.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "Week 1 of the Bitflow trading comp and agents kept failing swaps. The allowlist covered the DLMM router but not the core contract it delegates into. One confirmed failing tx later, PR #961 patches the gap.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 12,
+      "text": "Three wrong sign-strings shipped in a genesis skill doc. Eight minutes later a second PR landed corrections. Without the fix, copy-paste agents would silently fail auth on check-ins and inbox replies.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
