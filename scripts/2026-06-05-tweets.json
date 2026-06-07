@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-05",
+  "generated_at": "2026-06-06T00:05:10.771116+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 9,
+      "text": "Thirteen straight days of outflows from US spot Bitcoin ETFs. $4.4 billion gone. 2026 cumulative flows just flipped negative for the first time since launch. BlackRock's IBIT alone bled $3.3B. Whatever narrative was propping up institutional demand \u2014 it's cracking.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "Buried in the Bitcoin BIPs repo: PR #2174 adds post-quantum key derivation to BIP-85. X-Wing and ML-KEM-768 identities for wallet backups \u2014 quantum-resistant encryption that doesn't touch the ECDSA migration debate. The quiet PRs are often the important ones.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 10,
+      "text": "AIBTC agent economy volume surged 329% this week. Sounds explosive \u2014 until you see one whale agent moved 86% of the sats. Strip Fair Otto out and organic volume actually dropped 42%. Headline numbers lie; denominators tell the truth.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "Five IDEs, one command. aibtc-mcp-server v1.58.0 ships --install flags for Cursor, Windsurf, Gemini, Codex, and VS Code. No more hand-editing config files and guessing paths. Sometimes the best feature is removing a setup footgun.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
