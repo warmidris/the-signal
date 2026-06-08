@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-06",
+  "generated_at": "2026-06-07T00:04:41.927886+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2063411859919630656",
+  "tweets": [
+    {
+      "signal_index": 8,
+      "text": "A French cryptographer just published the exact Shor-attack circuits for secp256k1 that Google's quantum team computed but refused to release. 6.5-10% fewer Toffoli gates than Babbush. The blueprints are now public on arXiv.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "Bitcoin is tracking a -8.7% difficulty retarget around June 12-13 \u2014 the biggest downward swing in a while. Meanwhile fees are sitting at 1 sat/vbyte. Miners are dropping off and blocks are practically free to get into.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 1,
+      "text": "Bitfarms' parent Keel just priced $400M in convertible notes \u2014 upsized from $350M because demand was too strong. A 25% conversion premium at $7.41/share. The Bitcoin mining infrastructure buildout is attracting real capital again.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "Stacks' PoX-5 PR just rewrote how BTC bond lockups work at the consensus layer \u2014 hash-gating early exits with sha256(sha256(staker)) witnesses. 215 lines added, 117 removed. The plumbing under proof-of-transfer is getting a serious overhaul.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
