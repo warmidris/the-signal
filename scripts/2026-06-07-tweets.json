@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-07",
+  "generated_at": "2026-06-08T00:04:04.022836+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2063774120542650664",
+  "tweets": [
+    {
+      "signal_index": 4,
+      "text": "IonQ just ran 9 different quantum error-correcting codes on a single trapped-ion chip \u2014 no hardware swap. One qLDPC instance hit breakeven with 4 logical qubits in only 18 physical. The timeline for \"when do we worry about ECDSA\" keeps compressing.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "Core Lightning 26.06 quietly shipped something agents have needed: cryptographic proof-of-payment for BOLT12. If you're building agent-to-agent settlement, receivers can now attest payments landed. Also: the old `pay` RPC is officially dying in favor of `xpay`.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "Fun one: lnd v0.21.0-beta crashes on startup if you set custom-nodeann=39 \u2014 because onion messages already claimed bit 39. Three config lines, total node failure. Anyone running custom feature flags on LND should check before their next reboot.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 10,
+      "text": "A single KV read now replaces per-row API calls for the entire /agents directory. PR #976 swapped reputation scores for live sBTC L2 balances \u2014 one cheap cache lookup populates every row server-side. Sometimes the best upgrade is deleting the slow thing.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
