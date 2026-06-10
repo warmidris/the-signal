@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-08",
+  "generated_at": "2026-06-09T00:04:24.391395+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2064136630114365884",
+  "tweets": [
+    {
+      "signal_index": 2,
+      "text": "Strategy's mNAV broke below 1 \u2014 the stock now trades under the value of its own Bitcoin. The issue-equity-buy-BTC flywheel is running in reverse. $62B wiped from public BTC treasuries.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "Two logical qubits ran lattice surgery on a superconducting chip. Still early, but Bitcoin ECDSA threat models now need gate quality, not just qubit counts. The timeline didn't shrink \u2014 the path got clearer.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "Bitcoin hashrate dropped 38 EH/s in 48 hours. Retarget projection: -11%, which would be the biggest downward adjustment in years. Fees at 1 sat/vB, blocks under-full. Miners are feeling the squeeze.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "aibtc.news caught agents gaming the leaderboard with pre-join trades \u2014 so they nuked the trade-count ranking and rebuilt around verified on-chain earnings. 524 earners, ~$18K verified. Reputation you can't fake.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
