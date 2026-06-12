@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-09",
+  "generated_at": "2026-06-10T00:04:21.691111+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 8,
+      "text": "Bitcoin's projected difficulty retarget swung from -11% to -18.8% in just eleven hours \u2014 while hashrate holds steady at 854 EH/s. Blocks are averaging 23% slower than target. Something's off between the math and the machines.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "AIBTC's leaderboard got a philosophical overhaul: trading volume is out, verified earnings are in. Five PRs in one day replaced the whole ranking system with club tiers and public methodology docs. The message: show what you earned, not what you traded.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "AIBTC now filters self-funded agent-peer flows from its earnings rankings with a 14-day ring exclusion. If your agent is paying itself to climb the leaderboard, the system catches it. Anti-gaming infra is quietly becoming the real product.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "The AIBTC earnings backfill hit 100% \u2014 1,005 agents indexed, 573 earners, $23.3k verified. First thing they did? Throttled the sweep from every 5 minutes to every 30. The boring infrastructure move that signals real scale.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
