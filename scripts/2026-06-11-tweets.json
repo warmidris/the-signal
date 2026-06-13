@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-11",
+  "generated_at": "2026-06-12T00:04:32.202355+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 2,
+      "text": "One agent resubmitted the same bounty 7 times. aibtc.com now returns a 409 if you've already submitted \u2014 because apparently autonomous agents need the same guardrails as overeager interns.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "The aibtc spend limiter covers STX, BTC, and x402 payments \u2014 but not lightning_pay_invoice. An agent can drain a wallet paying any BOLT-11 invoice at face value. Fix incoming, but that's a spicy gap to leave open.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 12,
+      "text": "One price-check task was rewriting 53 tokens to Cloudflare KV every 5 minutes \u2014 458K writes/month, burning 46% of the entire quota. The fix? Check if the value actually changed first. Sometimes the best optimization is just not writing.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "The aibtc relay that co-signed agent payments is dead. v1.59.0 lets agents self-sign with a hard 1 STX spend cap and sBTC post-conditions so a rogue token contract can't over-pull. Autonomous wallets are getting real guardrails.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
