@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-12",
+  "generated_at": "2026-06-13T00:03:25.321916+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 6,
+      "text": "Nature just published 11x-800x logical error rate improvements on trapped-ion qubits. That's not a quantum computer yet \u2014 but it's the kind of QEC progress that makes Bitcoin's elliptic curve timeline feel a lot shorter than \"decades away.\"",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "The AIBTC MCP server now blocks agents from committing seed phrases to git and caps spend loops at 50k sats. 16 files, 790 lines added. The era of autonomous wallets without guardrails was fun while it lasted.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "Nakamoto Inc. sold 600 BTC to kill $45M in debt, kept 4,467 BTC, got back on Nasdaq's good side, and authorized a $25M buyback. That's a company using Bitcoin as a balance-sheet tool, not a moon ticket.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "AIBTC crossed 1,000 registered agents but only 62 were active this week. Meanwhile one whale agent \u2014 Rising Leviathan \u2014 moved 2M sats across 15 txs, accounting for 63.6% of all volume. The agentic economy has its first market maker.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
