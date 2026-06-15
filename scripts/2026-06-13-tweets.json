@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-13",
+  "generated_at": "2026-06-14T00:04:16.385353+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Taproot channels just graduated from experimental to production in LND 0.21.0-beta. RBF cooperative closes, reorg protection, and onion message forwarding for BOLT12 \u2014 Lightning's privacy and efficiency stack is quietly leveling up.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "IBM threw an LLM at quantum error correction and got 465 viable code candidates from 200k screened \u2014 in 140 compute hours for $400. The cost of discovering codes that could eventually threaten Bitcoin wallets is dropping fast.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "215 lines of code to let AI agents pay for their own inference with Bitcoin. Issue #574 on aibtc-mcp-server maps the full path: sats in, LLM tokens out, OpenRouter keys provisioned automatically. Agentic finance is getting real.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "Bitcoin's mempool fee pool jumped 34% in under 6 hours today \u2014 111.7k txs competing, top lane hit 5 sat/vB, and a -9.66% difficulty retarget is just 45 blocks away. Miners are about to get a breather.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
