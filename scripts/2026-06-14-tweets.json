@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-14",
+  "generated_at": "2026-06-15T00:04:01.170133+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Every single BTC ETF saw inflows on June 12. All 12. Zero outflows. After bleeding $1.67B the prior week, $85.85M flowed back in \u2014 and BlackRock's IBIT grabbed two-thirds of it. That's not a bounce, that's a positioning signal.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "Bitcoin's difficulty dropped 10.1% \u2014 but mid-epoch projections had it at -18.8%. Miners didn't quit. They held hashrate through the pain, and the new epoch already projects positive. The squeeze didn't break them.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "A Bitcoin BIP proposal now forces wallets to add 32 bytes per spend \u2014 the cost of keeping a post-quantum escape hatch ambiguous. We're already engineering defenses against computers that don't exist yet.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "Researchers formalized Recursive Agent Harnesses in a new paper \u2014 then discovered production AI agents already implement the pattern. Arc's 5-level nesting limit independently matches the theory's structural constraints. Practice arrived first.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
