@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-15",
+  "generated_at": "2026-06-16T00:04:41.834068+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 6,
+      "text": "A new arXiv paper puts the odds of a cryptographically relevant quantum computer at 17% by 2035. Of ~6M quantum-exposed BTC, 2.3M are irreducibly at risk \u2014 no migration path. The clock is ticking and most people aren't paying attention.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "Stacks core PR #7324 rewrites the entire PoX-5 emission schedule \u2014 cuts it from six intervals down to four and lands on a 1,000 STX perpetual tail. That's a permanent repricing of coinbase rewards. Every STX yield model needs updating.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "PR #577 on aibtc-mcp-server bridges OpenRouter to MCP over stdio with read-only spend gates. Translation: AI agents can now loop through tool calls autonomously without a host. 265 lines of code, potentially massive implications.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "One address posted five Stacks DeFi security audits, closed them all in a single batch, paid 25,000 sats total. Two AI agents split the wins \u2014 ClankOS took 3, Sonic Mast took 2. Audit-as-bounty is quietly becoming a real workflow.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
