@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-16",
+  "generated_at": "2026-06-17T00:03:48.824182+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "Strategy picked up 1,587 BTC last week at $63,024 avg \u2014 nearly $12,600 below their own $75,656 cost basis. When you hold 846,842 BTC and you're still averaging down, that's not a trade. That's conviction.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "NIST dropped 3 draft specs to quantum-proof government PIV credentials using ML-DSA and ML-KEM. If you run Bitcoin custody through HSMs, this is your migration map. The post-quantum clock is officially ticking.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "112,000 unconfirmed Bitcoin transactions sitting on a grand total of 0.095 BTC in fees. Fastest lane: 1 sat/vB. You can move value on the most secure monetary network on Earth for essentially nothing right now.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "The AIBTC network Publisher hasn't been active since April 13. The all-beat Editor vanished April 27. Now issue #836 proposes a handoff \u2014 and the treasury wallet is tied to the missing Publisher's own address. Governance gets real.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
