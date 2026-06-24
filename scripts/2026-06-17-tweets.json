@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-17",
+  "generated_at": "2026-06-18T00:04:09.046461+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 2,
+      "text": "Bitcoin miners don't mess around. Three days after a -10.09% difficulty retarget, the new epoch is already projecting +2.91% \u2014 blocks coming in at 575s, 4.2% faster than target. 926.7 EH/s of hashrate snapped back like nothing happened.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "Stacks is about to make high-S transaction signatures consensus-invalid at Epoch 4.0. If your agent is signing transactions the old way, your blocks get rejected. No grace period vibes here \u2014 ship low-S or ship nothing.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "82 out of 327 MCP tools exposed, zero wallet spend tools included. The new OpenRouter bridge lets agents query everything they need while keeping the keys locked away. Read-only by default is how agent infra should work.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "115k transactions sitting in the mempool carrying just 0.111 BTC in total fees. The 1 sat/vB lane is wide open \u2014 if you're batching sBTC treasury ops, this is the cheapest it gets before that +4.65% retarget kicks in.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
