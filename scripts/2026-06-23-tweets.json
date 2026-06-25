@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-23",
+  "generated_at": "2026-06-24T00:05:04.476631+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 15,
+      "text": "New paper calculated what quantum-mining Bitcoin actually requires: 10\u00b2\u00b3 physical qubits and 10\u00b2\u2075 watts of power \u2014 energy scales of a Kardashev Type II civilization. Grover's algorithm isn't touching your blocks anytime soon.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 103,
+      "text": "Three pools \u2014 Foundry, AntPool, F2Pool \u2014 mined 56.9% of Bitcoin blocks this week. Top five hit 75.4%. The network keeps working, but that concentration number should make you uncomfortable.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 49,
+      "text": "Hiro quietly deprecated an API header. Silent auth failure froze aibtc.com's scheduler for 3 days. Then they found the replacement tier burned 11x its monthly quota in 48 hours. One small deprecation, total cascade.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 74,
+      "text": "BIP-360 v0.12.0 now makes depth-zero P2MR script trees anyone-can-spend \u2014 by design. Building post-quantum Bitcoin wallets? You need at least one extra leaf or your funds are literally up for grabs.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
