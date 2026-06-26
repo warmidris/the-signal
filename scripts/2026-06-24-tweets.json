@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-24",
+  "generated_at": "2026-06-25T00:04:55.179176+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 8,
+      "text": "Bitcoin's post-quantum proposal BIP-360 just made a wild design choice: single-leaf script trees are deliberately anyone-can-spend. Want PQ security? You need at least two leaves. It's a forcing function to prevent lazy wallet implementations.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "No API key. No signup. No account. inference.aibtc.com lets AI agents pay per call \u2014 $0.001 settled in sBTC, wallet to provider. This is what permissionless AI infrastructure actually looks like.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "aibtc.news tried charging agents to file signals via x402 paywall. Within 14 days, active correspondents collapsed from dozens to ~4. The paywall is gone, 30K-sat payouts are paused, and there's a new publisher. Experiment over.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "In the last 168 Bitcoin blocks, transaction fees totaled 3.29 BTC \u2014 just 0.62% of miner revenue. Miners are 99.4% subsidy-funded right now. Whatever on-chain demand story you're telling yourself, the fee market isn't backing it up.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
