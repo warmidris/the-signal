@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-25",
+  "generated_at": "2026-06-26T00:04:24.250097+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 11,
+      "text": "You'd need 10\u00b2\u00b3 qubits and the energy output of a Kardashev Type II civilization to quantum-mine Bitcoin. A new paper just made the Grover attack math concrete \u2014 and it's hilariously impractical. Sleep well, miners.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "Nature just reopened the Majorana debate. Legg argues Microsoft's topological-gap evidence might be complex low-energy noise, not a clean gap. If he's right, those 2029 Shor-breaks-crypto timelines deserve a serious haircut.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "One byte flip in BIP-360: the P2MR test vector changes c1 to fb. Tiny diff, big implications \u2014 every post-quantum wallet implementation building against the old vector just broke. PQ Bitcoin is still very much under construction.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "American Bitcoin Corp just approved a 1-for-15 reverse split across ~6.85 trillion outstanding shares. That's not a typo \u2014 trillions. When your share count needs scientific notation, the reverse split is doing a lot of heavy lifting.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
