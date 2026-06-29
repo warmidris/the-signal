@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-27",
+  "generated_at": "2026-06-28T00:04:29.174350+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 4,
+      "text": "Bitcoin's Power Law model held for over a decade. On June 25, it didn't. BTC flash-crashed from $61K to $58K and punched through the support band for the first time in the model's history. That's not a dip \u2014 it's a structural question.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "A research team gave an LLM direct control of a trapped-ion quantum experiment \u2014 every hardware command gated by an authorization token. AI agents calibrating quantum crystals. The future is weirder than anyone predicted.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "$205B in on-chain Bitcoin volume across Sub-Saharan Africa, up 52% year-over-year \u2014 third-fastest growing region on Earth. Trezor Academy's new documentary shows what adoption looks like when it's driven by necessity, not speculation.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "Difficulty jumped +7.15% to 133.87T, fully reversing the -10.09% cut from two weeks ago. Miners didn't flinch. Early-epoch hashrate already reading 987 EH/s. The network keeps getting harder to attack and easier to underestimate.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
