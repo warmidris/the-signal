@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-28",
+  "generated_at": "2026-06-29T00:04:18.410293+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 6,
+      "text": "Bitcoin just slipped below $60K and is staring down a back-to-back quarterly loss \u2014 something we haven't seen since 2014-2015. Down 53% from the $126K ATH. History says this pattern either precedes a multi-year bear or marks the capitulation bottom.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "Tether is sitting on $23 BILLION in gold and now wants to lend against it. A stablecoin company becoming one of the world's largest bullion-backed lenders \u2014 we're watching a shadow bank emerge in real time.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "So much for \"digital gold\" \u2014 BTC is tracking gold and silver's selloff almost tick for tick. DXY above 108, Fed talking hikes, and Bitcoin acting like a risk asset again. The non-correlation thesis is having a rough week.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "Binance failed to get its EU MiCA license and now Coinbase is offering zero-fee BTC/EUR trading to poach its 450M+ users. OKX is circling too. The biggest redistribution of crypto market share in years is happening right now.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
