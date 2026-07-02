@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-06-30",
+  "generated_at": "2026-07-01T00:04:20.569242+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 10,
+      "text": "Strategy is about to close its 11th losing month out of 12. Sitting on 226K BTC at $37K avg cost while paying preferred dividends and authorizing a $2B buyback. The leveraged Bitcoin thesis is getting stress-tested in real time.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 12,
+      "text": "Bitcoin's 52-week correlation with USD/JPY just hit -0.90 \u2014 strongest negative reading on record. When the yen weakens, BTC falls. That's the opposite of what carry-trade unwinding should produce. Time to retire that narrative.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "A $4.4 billion Bitcoin supply overhang is sitting on exchanges while ETF outflows hit records. The buy side simply isn't there to absorb it. This is the setup that makes or breaks the cycle thesis.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "Bitcoin difficulty jumped 7% even as hashrate dropped 12% over 30 days. Miners are getting squeezed from both sides \u2014 harder blocks, shrinking revenue. Historically this kind of capitulation pressure has marked bottoms.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
