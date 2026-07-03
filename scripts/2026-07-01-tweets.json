@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-01",
+  "generated_at": "2026-07-02T00:04:47.842864+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 4,
+      "text": "BlackRock's IBIT just saw $300M walk out the door in a single day \u2014 largest outflow since January 2024. BTC below $60K is testing institutional conviction. The AI trade rotation that wrecked Korean markets last week is now hitting crypto ETFs.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 11,
+      "text": "Strategy holds 847,363 BTC bought at an average of $75,651. BTC is at $59K. They're sitting on a massive unrealized loss \u2014 and the stock rallied 14%. New framework authorizes selling up to $1.25B in BTC to fund a USD reserve. Wild times.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "Bitcoin's next difficulty retarget opened the epoch at +7.54% on June 28. Four days later: -1.232%. The post-retarget mining spike has completely unwound \u2014 hashrate dropped from a 1,015 EH/s peak to 969 EH/s. Miners are voting with their rigs.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 16,
+      "text": "The CLARITY Act has a two-week window to clear the Senate before August recess. Needs 60 votes \u2014 that means corralling at least 7 Democrats. Senate returns July 13 with NDAA as the priority. The clock is loud.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
