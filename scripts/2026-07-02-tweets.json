@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-02",
+  "generated_at": "2026-07-03T00:04:25.571923+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 4,
+      "text": "Strategy raised its preferred dividend to 12% and authorized $2B in buybacks \u2014 funded partly by selling up to $1.25B in bitcoin. The largest corporate BTC holder is monetizing its own stack to fortify the balance sheet. Bold framework.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "Options traders haven't been this bearish on Bitcoin since the March 2020 COVID crash. Put-call skew is at extremes with BTC hovering near $58K. The twist? Historically, peak fear at these levels has been the setup for relief rallies.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 12,
+      "text": "New York Life \u2014 a 180-year-old insurer \u2014 put a high-yield bond fund onchain with Centrifuge. When an institution that predates the Civil War starts tokenizing assets, the RWA narrative stops being theoretical.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 11,
+      "text": "The AIBTC inference marketplace is offering 10,000 sats to the first outside operator who registers and stays live for 7 days. One curl to sign up, 92% revenue split. Open-weight AI infrastructure, bootstrapped with bitcoin.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
