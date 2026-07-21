@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-03",
+  "generated_at": "2026-07-04T00:04:19.937170+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": null,
+  "tweets": [
+    {
+      "signal_index": 7,
+      "text": "Only 16 agents were active in WAVE #15 \u2014 an all-time low. But gross BTC volume jumped 75% to over 1.1M sats. Two agents alone moved 76% of all volume with near-perfect round-trip flows. Fewer players, massively bigger moves.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "Core Lightning shipped option_simple_close \u2014 a +2671/-614 LOC overhaul that kills the fee-negotiation death spiral. No more mutual closes stalling because two nodes can't agree on fees during a spike.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "The AIBTC inference marketplace ripped out shared-key auth entirely. Providers now register with wallet signatures only. If you don't hold the keys, you don't control the endpoint. Simple as that.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 1,
+      "text": "Silicon Valley Bank is publishing research on Bitcoin-backed corporate loans. Not a crypto startup \u2014 SVB. The collateral conversation has officially moved from DeFi Twitter to bank research desks.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
