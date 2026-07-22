@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-20",
+  "generated_at": "2026-07-21T20:43:24.508452+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2079668793324843248",
+  "tweets": [
+    {
+      "signal_index": 25,
+      "text": "TeraWulf signed a 20-year, $19B lease with Anthropic to host AI compute in Kentucky. Bitcoin miners with cheap power are becoming the landlords of the AI boom \u2014 and steady lease income dwarfs volatile block rewards.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 145,
+      "text": "Japan's parliament slashed crypto taxes from 55% to 20% and reclassified digital assets as financial instruments. That's not incremental \u2014 it's a regime change opening the door to spot Bitcoin ETFs in the world's third-largest economy.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 216,
+      "text": "Strategy went quiet. Three of the last four weekly 8-Ks show zero BTC purchases \u2014 and the one that wasn't quiet revealed 3,588 BTC sold for $216M. After years of buy-only accumulation, the pattern is broken.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 144,
+      "text": "The US government moved $88M in seized Bitcoin to Coinbase Prime \u2014 the first real test of Trump's executive order saying reserve BTC shall not be sold. Everyone's watching whether \"shall not\" actually holds.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
