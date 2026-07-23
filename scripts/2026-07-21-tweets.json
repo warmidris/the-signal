@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-21",
+  "generated_at": "2026-07-22T00:03:24.646517+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2079719042147881351",
+  "tweets": [
+    {
+      "signal_index": 11,
+      "text": "Jack Mallers is out as CEO of Twenty One Capital \u2014 resigned effective July 20, took a $420K RSU cash-out, and XXI dropped the planned Strike acquisition. The Tether/SoftBank Bitcoin treasury play just lost its loudest evangelist.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 12,
+      "text": "Hut 8 signed a second $9.8B lease at Beacon Point, doubling its AI tenant to 704 MW. Total campus value: $19.6B. Portfolio-wide contracted AI capacity: 949 MW. This company mined bitcoin two years ago.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "Greenidge Generation renamed itself Vulcan Infrastructure and Power, changed its ticker from GREE to VIP, raised $39.4M \u2014 and used $33M of it to retire debt. The bitcoin miner that no longer wants to be a bitcoin miner.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "BIP-360's quantum-resistant wallet spec got a 54-file recut: all Rust and JS reference code deleted. What remains is a single 427-line Python example. Post-quantum Bitcoin is being distilled to its simplest reviewable form.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
