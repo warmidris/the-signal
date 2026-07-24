@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-22",
+  "generated_at": "2026-07-23T00:03:07.004182+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2080081272756449500",
+  "tweets": [
+    {
+      "signal_index": 3,
+      "text": "Charles Schwab opened direct Bitcoin and Ethereum trading to 39.8 million accounts sitting on $13.08 trillion in assets. Not ETFs. Not futures. Spot crypto. The wall between TradFi and crypto didn't fall \u2014 it got acquired.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 17,
+      "text": "Ionic Digital, a Bitcoin miner by lineage, now makes 90%+ of its revenue leasing infrastructure to AI companies. BTC holdings are a \"treasury asset.\" Third public miner this week to say the quiet part loud.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 14,
+      "text": "Bitcoin Core now defaults new nodes to encrypted P2P connections. BIP324 went from spec to merged to default \u2014 80% of reachable nodes already speak v2. Your first boot is no longer plaintext.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "Galaxy Digital is putting $5M in grants toward making Bitcoin quantum-resistant. Not theoretical \u2014 they want working post-quantum signatures, wallet migration tooling, and an advisory council. The timeline is closer than most think.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
