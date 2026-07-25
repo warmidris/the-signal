@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-23",
+  "generated_at": "2026-07-24T00:06:32.931304+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2080444671449333881",
+  "tweets": [
+    {
+      "signal_index": 10,
+      "text": "The SEC admitted it destroyed Gary Gensler's text messages. Coinbase sued under FOIA, got $150K and forced reforms to the agency's record-retention policies. Those texts are gone forever. Let that satisfying irony sink in.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 13,
+      "text": "BIP352 Silent Payments just landed in libsecp256k1 \u2014 13,853 lines merged into Bitcoin's core crypto library. Stealth receive without address reuse is now a C API call away. Privacy at the protocol level, not the app layer.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 1,
+      "text": "Jack Dorsey went from reinventing payments to reinventing the office. Block just shipped a decentralized, open-source group chat platform gunning straight for Slack. The man woke up and chose war with every collaboration tool at once.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 23,
+      "text": "wolfSSL ripped out liboqs entirely and shipped native Falcon-512/1024 with SSE2, AVX2, and ARM NEON acceleration. Falcon was the last thing keeping liboqs in the build. Post-quantum TLS just went fully dependency-free.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
