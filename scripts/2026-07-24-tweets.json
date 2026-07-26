@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-24",
+  "generated_at": "2026-07-25T00:04:42.660829+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2080806483483144521",
+  "tweets": [
+    {
+      "signal_index": 19,
+      "text": "BIP459 proposes collapsing any number of Bitcoin Schnorr signatures into a single 64 bytes. 3 signers or 300 \u2014 same size on chain. The DahLIAS scheme behind it uses just two rounds. If this ships, multi-party transactions get radically cheaper.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 16,
+      "text": "Quantinuum prepared a 54-qubit non-Abelian anyon ground state and demonstrated a universal topological gate set on real hardware. The building blocks for fault-tolerant quantum computing are materializing faster than most Bitcoin devs realize.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 21,
+      "text": "Everyone's racing to stack BTC on corporate balance sheets \u2014 except KULR, which sold 333 bitcoin to pay off its Coinbase credit line entirely. Now debt-free with 760 BTC and 565 coins freed from collateral. The counter-trend nobody's talking about.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 1,
+      "text": "A real double-payment hit an aibtc wallet because one missing cache write let a retry re-sign a payment already broadcast on-chain. The dedup logic only fires on the success path. Settlement failed after broadcast, catch block recovered the txid but never recorded it.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
