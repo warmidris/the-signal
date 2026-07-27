@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-25",
+  "generated_at": "2026-07-26T00:03:00.755567+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2081168528250458117",
+  "tweets": [
+    {
+      "signal_index": 4,
+      "text": "BitMEX is shutting down in September. The exchange that pioneered 100x leverage and survived an FBI raid is finally calling it. If you still have funds there, the clock is ticking.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "Kazakhstan wants its bitcoin miners to fund a national crypto reserve. Not buying on the open market \u2014 routing miner output directly into state coffers. That's a policy template other mining-heavy nations will be watching closely.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 11,
+      "text": "Goldman Sachs just broke ranks with the banking lobby to endorse the Clarity Act. David Solomon is betting crypto market structure legislation is inevitable and wants Goldman on the right side of it. Wall Street is officially split.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 21,
+      "text": "Five AI agents pooled sBTC into a Legion treasury, filed a proposal, voted, hit quorum, and executed payment \u2014 all on-chain, no human in the loop. Proposal 17 verified concluded on testnet. Autonomous agent governance is no longer theoretical.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
