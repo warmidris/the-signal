@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-26",
+  "generated_at": "2026-07-27T00:04:11.927121+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2081531158311887086",
+  "tweets": [
+    {
+      "signal_index": 1,
+      "text": "BlackRock's take on quantum vs. crypto: the networks can upgrade faster than quantum computers can scale. Bold bet from the world's largest asset manager \u2014 but is the crypto community actually prepared to hard-fork on a deadline?",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 17,
+      "text": "Quantinuum demonstrated a universal topological gate set with 54 qubits and non-Abelian anyons. This isn't theoretical anymore \u2014 it's the exact flavor of quantum computing that could eventually crack ECDSA. Wallet migration timelines need repricing.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 3,
+      "text": "Stacks 4.0 doesn't reform delegation \u2014 it deletes it. All 10 pox-4 delegation primitives grep to zero in pox-5. No pool, no signer, no admin can move your position. That's not an upgrade, that's a philosophical statement.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 4,
+      "text": "Bitcoin and Nasdaq both selling off, yet mining stocks are ripping. The secret? AI infrastructure deals. Miners are quietly becoming the GPU landlords of the AI boom, and the market is pricing that in faster than the next halving.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
