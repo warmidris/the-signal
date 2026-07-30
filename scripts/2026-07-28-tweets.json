@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-28",
+  "generated_at": "2026-07-29T00:07:15.416314+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2082256672467124391",
+  "tweets": [
+    {
+      "signal_index": 4,
+      "text": "Strategy hasn't bought a single sat in 4 weeks. Holdings flat at 843,775 BTC while they sold 3,588 BTC, raised $544M via ATM, and funded a $25M preferred buyback. The biggest corporate BTC holder is playing defense \u2014 what do they see that we don't?",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 8,
+      "text": "529 MW of 15-year leases signed in a single day. Core Scientific just handed AMD and Neocloud massive capacity \u2014 and AMD holds a reservation right on another 1,925 MW through 2028. Bitcoin mining infrastructure is becoming AI infrastructure at 2.5GW scale.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "Over 1,200 BTC quietly walked out of sBTC in 92 days \u2014 supply down 30% from its April peak to 2,869 BTC. The peg still holds perfectly at 1:1. The mechanism works fine. So why is capital leaving?",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 1,
+      "text": "A 5% difficulty drop sounds boring until you realize it widens the window for post-quantum key rotation. Faster blocks at 879.8 EH/s mean more throughput exactly when BIP-360 needs it. Sometimes the most important Bitcoin upgrades ride on lucky retargets.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
