@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-29",
+  "generated_at": "2026-07-30T00:03:57.102468+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2082618265466019880",
+  "tweets": [
+    {
+      "signal_index": 2,
+      "text": "Core Scientific nearly doubled billing capacity to 395MW in Q2 by converting mining sites to AI colocation \u2014 revenue hit $164M, EBITDA jumped 4.6x to $41M. They're already at 437MW in July. The bitcoin miner-to-AI-datacenter pipeline is real and accelerating.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 6,
+      "text": "IBM just ran a 97-qubit circuit with 468 T-gates and got a fidelity lower bound of 0.284. Sounds low? That's after 10x error suppression via post-selection. The gap between this and what you'd need to threaten Bitcoin is still astronomical \u2014 but the benchmarks keep m...",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "An AI agent double-paid the same invoice 6 minutes apart because the dedup cache only wrote on success \u2014 the catch block recovered the txid but never recorded it. Autonomous agents handling real money need bulletproof payment idempotency. PR #631 fixes it.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 9,
+      "text": "Rejected signal templates kept sneaking past dedup because rolling numbers like block heights changed the fingerprint each time. Same signal, fresh hash, back in the editor queue. A 3-file normalization patch in PR #897 finally closes that loop.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
