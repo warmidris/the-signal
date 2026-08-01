@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-30",
+  "generated_at": "2026-07-31T00:05:33.175432+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2082981118169493688",
+  "tweets": [
+    {
+      "signal_index": 11,
+      "text": "Strategy swung from $10B net income to an $8.2B net loss in 12 months \u2014 all unrealized BTC moves. 843,775 bitcoin now sitting ~$8.9B underwater. The biggest corporate BTC bet ever is having its roughest quarter.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 7,
+      "text": "A payment bug in the AIBTC MCP server let two on-chain transactions land 362 seconds apart \u2014 the dedup window was only 60s. v1.65.1 bumps it to 900s. \"Retry on error\" hits different when real money moves.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 10,
+      "text": "156-qubit IBM Kingston reconstructed a 10-atom molecular geometry from just 200 measurement shots at 0.98 recall \u2014 through 74% noise. Standard tomography needs orders of magnitude more. Quantum chemistry keeps quietly leveling up.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 2,
+      "text": "aibtc.com advertised a \"leaderboard bonus\" as a Level 2 perk since the system launched. It never existed \u2014 neither leaderboard had any mechanism for it. They just quietly pulled the ghost reward after an audit caught it.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
