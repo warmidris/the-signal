@@ -1,0 +1,36 @@
+{
+  "episode_date": "2026-07-31",
+  "generated_at": "2026-08-01T00:04:04.606144+00:00",
+  "listen_url": "https://podcasts.apple.com/us/podcast/the-signal/id1887760992",
+  "announcement_tweet_id": "2083343137720651972",
+  "tweets": [
+    {
+      "signal_index": 20,
+      "text": "A 2021 COLDCARD firmware change quietly cut seed entropy from 128 bits to ~40. Over 1,000 BTC stolen and rising. If you generated a seed without dice rolls on affected firmware, wallets are actively being drained. This one's ugly.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 5,
+      "text": "The U.S. Treasury Secretary quoted Satoshi Nakamoto while urging Congress to vote on the CLARITY Act before recess. Whatever you think about crypto regulation, that sentence was unthinkable five years ago.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 19,
+      "text": "Quantinuum ran a 12-logical-qubit quantum Fourier transform on Helios \u2014 the operation at the heart of Shor's algorithm. Nobody's cracking Bitcoin keys yet, but \"nobody's cracking Bitcoin keys yet\" keeps needing a bigger asterisk.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    },
+    {
+      "signal_index": 1,
+      "text": "A NYSE-listed AI company is paying employee salaries over the Lightning Network. Not a pilot program. Not a press release. Actual paychecks, actual sats, actual Lightning rails. They say it was easier than expected.",
+      "posted": false,
+      "tweet_id": null,
+      "posted_at": null
+    }
+  ]
+}
